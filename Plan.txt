@@ -1,0 +1,214 @@
+Crowdfunding project for Perform automation testing:
+
+Frontend :
+https://crowdfunding-frontend-delta.vercel.app/
+
+Admin Panel : 
+https://crowdfunding-admin-gamma.vercel.app/
+
+
+Email : apoorva@yopmail.com
+Password : Ips@12345
+
+
+mahendraqa@yopmail.com
+Test@123
+
+@Payal Task Update:
+
+(1) Crowd Funding :(8:30 hours)
+
+I have an understanding of framework development from scratch.
+As required, I have installed the prerequisite software as well as plugins and configurations.
+ - Java Development Kit (JDK) 
+ - Eclipse IDE for Java Developers
+ - Maven (usually integrated with Eclipse)
+I have created a new Maven project in Eclipse.
+Add the necessary dependencies for Selenium and other libraries as needed, and update the pom.xml file.
+As per the new created Maven project, I have an understanding of the relevant file structure.
+Detailed explanation of each component for src/main/java and src/test/java, including their purpose and exact usage.
+I have worked on designing an automation framework from scratch using the Page Object Model (POM) method.
+I have implemented test script execution for opening and closing the web browser.
+I had a discussion with Ahesan Ali regarding framework development.
+Additionally, I have set up browser launching along with TestNG test methods for script execution.
+
+(2) I have attended a demo session with the team.
+
+@all Leaving for the day.
+
+
+@Payal Task Update: (6:30 hours)
+
+(1) Laurie Arias 
+- I had a discussion with the developers and the team.
+- I have worked on performing browser compatibility testing across various web browsers.
+- I performed browser compatibility testing on the entire website.
+- I have performed responsive testing on Android, iOS, and iPad devices, considering both landscape and portrait modes.
+- I have worked on verifying and re-testing all the bugs found during testing.
+- I have created a bug sheet.
+- Reported bugs have been documented with video screenshots attached to the live sheet.
+- I followed up on the identified bugs and updated the status of each bug accordingly.
+- I have updated all tickets on the Jira board from my side.
+
+(2) Crowd Funding (2:00 hours)
+- I have taken KT of the project from Suruchi.
+- Also understanding and exploring the web application.
+
+@all Leaving for the day.
+
+
+
+
+
+@Payal Task Update: (8:30 hours)
+
+(1) Crowd Funding 
+
+- I have completed the framework development from scratch and successfully launched the browser.
+- Once the homepage opened, I verified the dynamic details to ensure they matched the expected results for the Title, Email ID, and Mobile Number.
+- After confirming that the homepage loaded correctly, I scrolled down and up, then verified the footer title text for 'Our Newsletter.'
+- I clicked on the sign-in button to ensure the user was redirected properly by verifying the title text and details on the sign-up page.
+- I have created test scripts for negative scenarios on the Sign-Up page, which are expected to verify these scenarios using assertions.
+- The script’s executed for output and the console output were used to verify the dynamic details.
+- I have set the executed priority for each method to ensure the scripts run in the correct sequence.
+
+all Leaving for the day.
+
+
+java.lang.NullPointerException: Cannot read field "HomebuttonclickSignin" because "this.loginpage" is null
+
+
+
+Here are the corrected sentences:
+
+Here are the corrected sentences:
+
+- Performed test script execution for automation website testing.
+- Executed test scripts on the sign-in page.
+- Worked on the execution of positive and negative test case scenarios.
+- Verified dynamic text and error details.
+- Worked on verifying expected and actual results using assertions.
+- Executed test scripts on the sign-up page.
+- Worked on the execution of positive and negative test case scenarios on the sign-up page.
+- Worked on verifying expected and actual results using assertions on the sign-up page.
+
+- Attended a session given by Suruchi.
+
+
+
+
+Attended a session given by Suruchi.
+
+
+// Import necessary packages
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class LoginTest {
+    public static void main(String[] args) {
+        // Set up the WebDriver (e.g., ChromeDriver)
+        System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
+        WebDriver driver = new ChromeDriver();
+
+        // Navigate to the login page
+        driver.get("https://your-application-url.com/login");
+
+        // Test Case 1: Valid login credentials
+        String validUsername = "validUser";
+        String validPassword = "validPassword";
+
+        // Test Case 2: Invalid login credentials
+        String invalidUsername = "invalidUser";
+        String invalidPassword = "invalidPassword";
+
+        // Enter valid credentials and attempt to log in
+        driver.findElement(By.id("username")).sendKeys(validUsername);
+        driver.findElement(By.id("password")).sendKeys(validPassword);
+        driver.findElement(By.id("loginButton")).click();
+
+        // Check if the login was successful by verifying the presence of a logout button or user dashboard
+        if (driver.findElement(By.id("logoutButton")).isDisplayed()) {
+            System.out.println("Test Case 1 Passed: User was able to log in with valid credentials.");
+        } else {
+            System.out.println("Test Case 1 Failed: User was not able to log in with valid credentials.");
+        }
+
+        // Log out to test invalid credentials
+        driver.findElement(By.id("logoutButton")).click();
+
+        // Enter invalid credentials and attempt to log in
+        driver.findElement(By.id("username")).sendKeys(invalidUsername);
+        driver.findElement(By.id("password")).sendKeys(invalidPassword);
+        driver.findElement(By.id("loginButton")).click();
+
+        // Check if an error message is displayed
+        WebElement errorMessage = driver.findElement(By.xpath("//p[@id='error-message']"));
+        if (errorMessage.isDisplayed()) {
+            System.out.println("Test Case 2 Passed: Error message displayed for invalid credentials: " + errorMessage.getText());
+        } else {
+            System.out.println("Test Case 2 Failed: Error message not displayed for invalid credentials.");
+        }
+
+        // Close the browser
+        driver.quit();
+    }
+}
+
+
+    WebElement errorMessage = driver.findElement(By.xpath("//p[text()=\"Must be a valid email !\"]"));
+	    if (errorMessage.isDisplayed())
+	    {
+	            System.out.println("Test Case Passed: Error message displayed for invalid credentials: " + errorMessage.getText());
+	    }
+	    else
+	    {
+	        	System.out.println("Enter valid login credentials");
+	    }
+
+PASSED: Verified_Home_Page
+PASSED: Verified_Sign_Up_Page
+PASSED: Verified_Sign_In_Page
+
+
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+// Set up WebDriverWait
+WebDriverWait wait = new WebDriverWait(driver, 10); // 10 seconds timeout
+
+try {
+    // Wait for the element to be visible
+    WebElement errorMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='notistack-CollapseWrapper']")));
+    
+    // Check if the error message is displayed
+    if (errorMessage.isDisplayed()) {
+        System.out.println("The test case failed due to invalid credentials: " + errorMessage.getText());
+    } else {
+        System.out.println("Test Case Passed: The user was able to log in successfully.");
+    }
+} catch (org.openqa.selenium.TimeoutException e) {
+    System.out.println("Element not found within the timeout period. The user might have logged in successfully.");
+}
+
+
+
+
+
+@Payal Task Update:
+
+(1) Crowd Funding :(8:30 hours)
+
+- Performed automation testing.
+- I worked on creating a Test Base class to define some basic reusable methods like `sendKey`, `click`, `setValue`, etc., and implemented them.
+- Based on Ahesan's suggestion, I implemented common methods in each class, following coding standards.
+- I executed the test script for the forgot password page.
+- Used assertions to verify expected and actual results for these scenarios.
+- Verified the Home Page.
+- Verified the Sign_Up_Page.
+- Verified the Sign_In_Page.
+- Verified the Verified_Forgot_passwords
+- I implemented both Explicit and Implicit Wait.
+
+@all Leaving for the day.

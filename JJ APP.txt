@@ -1,0 +1,87 @@
+Farid BO Details below
+----------------------
+
+Hello @Mahendra bhai,
+
+Please find JourneyJoy Dashboard related details below:
+
+Link -
+
+https://journey-joy-dashboard.vercel.app/
+
+Admin Credentials - 
+
+Email : vaibhavj.itpath@gmail.com
+Password : 7y=-@1hbMVWj*(9j
+
+Agency Credentials - 
+
+Email: kevals.itpath@gmail.com
+Password: 7y=-@1hbMVWj*(9j
+
+
+Shyam Details below  
+--------------------- 
+
+Hello @Mahendra bhai,
+
+Please find JourneyJoy Mobile App related details below:
+
+Link -
+
+https://appdownload.project-demo.info/JourneyJoy/android/20240417_1713353108/app-release.apk
+
+User Credentials - 
+
+Email : dhartis.itpath@gmail.com
+Password : Dharti@12345
+
+Driver Credentials - 
+
+Email: farid.itpath@gmail.com
+Password: GGyrJ9guQ+Dm+h6K
+
+
+
+
+
+User login Credentials:
+
+mahendrauser@yopmail.com
+Test@1	23
+
+Driver Login Credentials:
+mahendradr@yopmail.com
+(Tn5PUuTmYP18AOi 
+
+
+FMI 
+-----------------------
+Admin  :- Back Office
+Agency :- Back Office
+
+Driver :- Mobile App
+User   :- Mobile App
+-----------------------
+
+qahod@yopmail.com
+qahod12345
+
+
+
+HI Mahendra,please find latest APK build for testing
+
+APK link : https://appdownload.project-demo.info/JourneyJoy_v2/android/20240624_1719212483/app-release.apk
+Dashboard link : https://journey-joy-dashboard.vercel.app/
+
+Admin Credentials: 
+email: vaibhavj.itpath@gmail.com
+password: 7y=-@1hbMVWj*(9j 
+
+Agency Credentials: 
+email: kevals.itpath@gmail.com
+password: 7y=-@1hbMVWj*(9j 
+
+User Credentials: 
+email: dhartis.itpath@gmail.com
+password: Dharti@12345 

@@ -1,0 +1,202 @@
+Mock interview conducted by Bijal
+ 
+
+[1]  https://www.simplilearn.com/manual-testing-interview-questions-and-answers-article
+[2]  https://www.geeksforgeeks.org/manual-testing-interview-questions/
+[3]  https://www.edureka.co/blog/interview-questions/manual-testing-interview-questions/
+[4]  https://intellipaat.com/blog/interview-question/manual-testing-interview-questions/
+[5]  https://www.interviewbit.com/manual-testing-interview-questions/
+[6]  https://testsigma.com/blog/manual-testing-interview-questions/
+[7]  https://www.softwaretestingmaterial.com/100-software-testing-interview-questions/
+[8]  https://anywhere.epam.com/en/blog/manual-testing-interview-questions
+[9]  https://www.javatpoint.com/software-testing-interview-questions
+[10] https://in.indeed.com/hire/interview-questions/test-engineer?gad_source=1&gclid=EAIaIQobChMI7Iul0tnphgMVXaRmAh1soQnFEAAYASAAEgKBU_D_BwE&aceid=&gclsrc=aw.ds
+[12] https://www.coursera.org/in/articles/manual-testing-interview-questions
+[13] https://artoftesting.com/manual-testing-interview-questions
+[14] https://www.testgorilla.com/blog/manual-testing-interview-questions/
+[15] https://www.naukri.com/code360/library/manual-testing-interview-questions
+[16] https://www.guru99.com/software-testing-interview-questions.html
+[17] https://katalon.com/resources-center/blog/software-testing-interview-questions
+[18] https://www.dice.com/career-advice/manual-tester-interview-questions-how-prepare
+[19] https://www.mygreatlearning.com/blog/manual-testing-interview-questions/
+[20] https://www.testgorilla.com/blog/software-testing-interview-questions/?utm_term=&utm_campaign=SN%20Dynamic%20IN&utm_source=google&utm_medium=cpc&hsa_acc=4932434860&hsa_cam=13796886697&hsa_grp=128153431327&hsa_ad=695155846961&hsa_src=g&hsa_tgt=dsa-19959388920&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gclid=EAIaIQobChMI7Iul0tnphgMVXaRmAh1soQnFEAMYASAAEgINcvD_BwE&gad_source=1
+[21] https://www.theknowledgeacademy.com/blog/software-testing-interview-questions/
+[22] https://ca.indeed.com/career-advice/interviewing/manual-testing-interview-questions
+[23] https://grotechminds.com/manual-testing-interview-questions-for-experienced/
+[24] https://rahulshettyacademy.com/blog/index.php/2022/01/18/software-testing-interview-questions/#t-1638970939485
+[25] https://rahulshettyacademy.com/blog/index.php/2022/01/18/manual-testing-interview-questions/
+[26] https://www.vinsys.com/blog/manual-testing-interview-questions
+[27] https://theqalead.com/managing-leading/qa-interview-questions/
+[28] https://www.janbasktraining.com/blog/manual-testing-interview-questions-answers/
+[29] https://www.careerist.com/insights/manual-testing-interview-questions-and-answers-of-2023
+[30] https://unstop.com/blog/manual-testing-interview-questions
+[31] https://www.techdrills.in/downloads/100%20Questions%20on%20Manula%20Testing.pdf
+[32] https://www.functionize.com/blog/the-best-qa-job-interview-questions-for-managers-to-ask
+[33] https://www.shiksha.com/online-courses/articles/top-software-testing-interview-questions-answers/
+[34] https://www.pavantestingtools.com/p/blog-page_6.html
+[35] https://www.pavantestingtools.com/2016/02/manual-testing-interview-questions.html
+[36] https://www.softwaretestinghelp.com/software-testing-interview-questions/
+[37] https://datatrained.com/post/manual-testing-interview-questions/
+[39] https://www.quora.com/What-are-some-interview-questions-for-manual-software-testing-for-around-7-years-of-experience
+[40] https://www.gcreddy.com/2022/01/manual-testing-interview-questions.html
+[42] https://testrigor.com/blog/manual-qa-interview-questions/
+[43] https://www.technojobs.co.uk/info/interview-tips/software-testing-interview-questions.phtml
+[44] https://www.slideshare.net/slideshow/manual-testing-interview-questions-and-answers-250034754/250034754
+[45] https://www.qafox.com/software-testing-and-manual-interview-questions-and-answers-part-5/
+[46] https://www.interviewkickstart.com/blogs/interview-questions/software-testing-interview-questions
+[47] https://www.testbytes.net/blog/manual-testing-interview-questions-answers/
+[48] https://www.mytectra.com/interview-question/121-manual-testing-interview-questions-and-answers
+[49] https://www.practitest.com/resource-center/blog/software-testing-interview-questions/
+[50] https://www.hipeople.io/interview-questions/manual-testing-interview-questions
+[51] https://www.getsoftwareservice.com/top-20-manual-testing-interview-questions-and-answers-in-2022/
+[52] https://www.lambdatest.com/learning-hub/manual-testing-interview-questions	
+[53] https://electronicspost.com/manual-testing-interview-questions/
+[52] https://www.infosectrain.com/blog/top-25-questions-asked-in-a-manual-software-testing-interview/
+[52] https://www.elearningsolutionstesting.in/50-important-manual-testing-interview-questions/
+[52] https://www.tealhq.com/interview-questions/software-tester
+[53] https://www.sprintzeal.com/blog/manual-testing-interview-questions
+[54] https://www.slainstitute.com/manual-testing-interview-questions-and-answers
+[55] https://blog.imocha.io/software-testing-interview-questions-for-hiring-experienced
+[56] https://www.3ritechnologies.com/manual-testing-interview-questions-and-answers/
+[57] https://blog.educationnest.com/cracking-the-code-manual-testing-interview-questions-you-must-know/
+
+
+[1] Tell me about yourself introduction
+
+
+- Hello Sir/Ma'am, Good morning, or Afternoon, or Evening.
+- Thank you for giving me this wonderful opportunity to introduce myself.
+- My name is Mahendra Chauhan.
+- I am from Godhra, Panchmahal, but I currently live in Ahmedabad.
+- I have completed an MCA from Gujarat University, and after that...
+- I have completed an MCA from Gujarat University, and after that, I started my career journey at IT Path Solutions as an Associate Quality Analyst.
+- I have 2 years and 8 months of experience in the software testing field.
+- Where I was involved in manual testing of web applications, mobile applications, and API testing for including both front-end side and back-end side testing, 
+  for different types of testing are performed, including functional, non-functional, security, compatibility, and data testing.
+
+[2] Roles Responsibilities
+
+
+Now, let me explain my current roles and responsibilities in my organization.
+
+
+In our organization, we follow the Agile methodology, so every day we attend a scrum call meeting. In the scrum call, 
+I have provide feedback on what I did yesterday, what I am working on today, and what I will work on next. As per assigned work, 
+I first understand the user stories and write down the test cases. After completing the test cases, I start testing. 
+If I find any bugs during testing, I assign them to the respective developer. Once the developer resolves the issues, 
+I perform re-testing and regression testing. We use Azure Boards for bug tracking, and at the end of the day, I provide feedback to our lead.
+
+
+
+- that was just a brief summary of my journey so far. However, if u would like to know any further details I would be glad to share it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+- 
+
+- 
+
+- 
+
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1 What is your strength?
+I am a quick learner and a great team player.
+
+2. What is your weakness?
+I concentrate on one thing. at a time.
+
+3. How do you see yourself 5 years from now?
+
+I see myself in a Senior position managing an important portfolio of this company.
+
+4. Why should we hire you?
+
+If you hire me, it will be a great platform to showcase my skills and the goals I set. Ensure to complete them within a stipulated time.
+
+5. Reason behind leaving your last job?
+
+In order to enhance my skills. set. I am looking for better Opportunities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In our organization, we follow the Agile methodology, so every day we attend a scrum call meeting. 
+In the scrum call, I provide feedback on what I did yesterday, what I am working on today, and what I will work on next.
+so as per assign work first I have understand user stories I write down the test cases, after completing test cases i have started testing,
+at the time of testing if i found any bugs then i will be assign to the respective developer and after developer resoled that issues, i will platform
+re-testing and Regression on it,and for bug tracking we used Azure Boards and at the and of day i will be provided feedback to our lead.
+
+
+In our organization, we follow the Agile methodology, so every day we attend a scrum call meeting. In the scrum call, 
+I have provide feedback on what I did yesterday,what I am working on today, and what I will work on next. As per assigned work, 
+I first understand the user stories and write down the test cases. After completing the test cases, I start testing. If I find any bugs during testing,
+I assign them to the respective developer. Once the developer resolves the issues, I perform re-testing and regression testing.
+We use Azure Boards for bug tracking, and at the end of the day, I provide feedback to our lead.

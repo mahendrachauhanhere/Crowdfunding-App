@@ -1,0 +1,126 @@
+10:11
+Explanation:
+
+Given()	‘Given’ keyword, lets you set a background, here, you pass the request headers, query and path param, body, cookies. This is optional if these items are not needed in the request
+
+When()	‘when’ keyword marks the premise of your scenario. For example, ‘when’ you get/post/put something, do something else.
+
+Method()	Substitute this with any of the CRUD operations(get/post/put/delete)
+
+Then()	Your assert and matcher conditions go here
+
+
+mentioned Dummy API website
+
+https://reqres.in/
+https://httpbin.org/
+
+
+
+
+
+
+
+	
+	/*	[1] Smoke Testing:
+		- When we Receive build any document from developer then we need to test build ready for the testing or check Major functionality it called smoke testing.
+		- In smoke testing, the entire system is verified from end to end.
+		- Smoke testing is done on initial builds, The software build may be either stable or unstable during smoke testing.
+		- In short, a smoke testing is done in a development atmosphere to make sure that the build meets the requirement.
+		- Smoke testing helps in uncovering problems early.
+
+
+		[2] Sanity Testing: 
+		- Sanity test is the subset of regression testing. it ensures that bug fixes, newly added functionality or any other code change doesn’t affect the stable software, build other functionality or introduce any type of bug issue. It also evaluates the software and ensures whether it’s ready for the next level of testing or not.
+		- Planned when there is not enough time for in-depth testing
+		- Sanity testing is a subset of regression testing done after smoke testing. 
+		- Testers perform sanity testing after the smoke testing to ensure the software works correctly after code changes, bug fixes, or new functionality is added. 
+		- Relatively stable when sanity testing is performed.
+		- One can conduct Sanity testing only after finding the defect.
+		
+		
+		[3] Re-Testing:
+		- Suppose a tester has identified a defect in the login form, where the login button was not functioning correctly. The tester reported this issue to the development team, and they fixed the issue by updating the code. Now, the tester needs to perform retesting to ensure that the issue has been fixed. In this case, the tester will execute the same test cases that were executed previously to verify that the login button is functioning correctly.
+		
+		
+		[4] Regression Testing:
+		- Suppose the development team has added some new features to the web application, such as a new profile page and a dashboard. Before releasing these new features to the end-users, the tester needs to perform regression testing to ensure that the existing functionality of the system has not been affected by the new changes. In this case, the tester will execute all the previously executed test cases, including the login form, to ensure that the login functionality is still working correctly after the new changes have been made.
+		
+		 Levels of Testing
+		
+		
+		[5] Unit Testing:
+		 - Unit testing is testing the smallest testable unit of an application.
+		 - It is done during the coding phase by the developers.
+		 - To perform unit testing, a developer writes a piece of code (unit tests) to verify the code to be tested (unit) is correct.
+		 - This testing is performed using the white box testing method.
+		 - Unit testing is also known as the first level of testing.
+		 
+		 #Example:
+			The above function takes two numbers as input and returns their sum. The above unit test “asserts” that 5 + 10 equals 15. 
+
+
+		[6] Integration testing:
+		- This is the second level of software testing, where each component or unit is combined and tested as a whole.
+		- Once all the components or modules are working independently, then we need to check the data flow between the dependent modules is known as integration testing.
+		- The goal behind this testing is to ensure that software or product is working properly when the software unit is combined with other components.
+		
+		#Example:
+			Sample integration test case for the following scenario: The Application has 3 modules say ‘Login’, ‘Mailbox’, and ‘Delete emails’ and each of them is integrated logically.
+			
+			
+		[7] System Testing:
+		 - This testing aims to test the whole system in a different environment and ensure that it meets the specified requirements.+
+		 - System Testing includes testing of a fully integrated software system.
+		 - In system testing, we will go through all the necessary modules of an application test if the end features or the end business works fine, and test the product as a complete system.
+		 
+		 
+		[8] Acceptance Testing:
+		- Acceptance testing is the final level of testing, where the software is evaluated against the business requirements and user needs to ensure that it meets the expectations of the stake holders.
+		- Acceptance testing may be conducted by the end users,(client or customer) or by a dedicated software testing team.
+		
+		
+		[9] Alpha testing:
+		
+		- Alpha testing is conducted in the organization and tested by a representative group of end-users at the developer's side and sometimes by an independent team of testers.
+		- Alpha testing covers both white- and black-box testing techniques.
+		- Effort, Multiple execution cycle.
+		- Alpha testing is simulated or real operational testing at an in-house site. It comes after the unit testing, integration testing, etc. Alpha testing used after all the testing are executed.
+		
+		
+	 	[10] Beta testing:
+	 	- Final testing before releasing application for commercial purpose. It is typically done by end-users or others.
+	 	- Beta testing mainly uses black-box testing techniques.
+	 	- Effort, short time frame.
+	 	
+	 	
+	 	[12] Ad-hoc Testing:
+	 	- Testing performed without planning and documentation – the tester tries to ‘break’ the system by randomly trying the system’s functionality. It is performed by the testing team.
+	 	- Ad-hoc testing is also known as Monkey testing and Gorilla testing.
+	 	
+	 	#Example:
+	 	In Ad-hoc testing, we don't follow the requirement because we randomly check the software. Our need is A?B?C?D, but while performing Ad-hoc testing, the test engineer directly goes to the C and test the application as we can see in the below image:
+		
+		Why do we need to perform Ad-hoc Testing?
+		- When the product release to the market, we go for Ad-hoc testing because the customer never uses the application in sequence/systematically for that sake; we check the application by going for Ad-hoc testing by checking randomly.
+
+		- Checking the application randomly without following any sequence or procedure since the user doesn't know how to use the application, they may use it randomly and find some issues to cover this we do one round of Ad-hoc testing.
+
+
+		[13] Black box Testing
+		- A method of software testing that verifies the functionality of an application without having specific knowledge of the application’s code/internal structure. Tests are based on requirements and functionality. It is performed by QA teams.
+	
+	
+		[14] White box Testing
+		- Testing technique based on knowledge of the internal logic of an application’s code and includes tests like coverage of code statements, branches, paths, conditions. It is performed by software developers. 
+		
+		
+		[15] Gray box Testing 
+		- A combination of Black Box and White Box testing methodologies: testing a piece of software against its specification but using some knowledge of its internal workings. It can be performed by either development or testing teams.
+		- Gray box tester both types knowlages on it somewhare organation worked someone long time 
+
+	 	
+
+		 
+		 
+		*/

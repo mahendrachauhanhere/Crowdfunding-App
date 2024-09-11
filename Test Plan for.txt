@@ -1,0 +1,1816 @@
+@Payal Task Update:(8:30 hours)
+
+ENTR App API:
+
+- Perform performance testing using the JMeter tool.
+- Performed ENRT Group testing for DEV environment APIs, focusing on performance test by evaluating stability, response time, and applying workload.
+
+- Performed API testing in Postman with the development environment, including sign-up, sign-in, and resend email APIs.
+- Configured JMeter to pass Postman payload data through the HTTP Header Manager.
+
+- JMeter controllers for Modules wise Metrics.
+- Controllers helps to track performance of Modules of application.
+
+- Created and submitted documentation on the following topics:
+- Test Plan, Configuration Elements, Listeners, Timers, Preprocessors and Postprocessors, Assertions, Test Fragments, Non-Test Fragments
+- Samplers: FTP Request, HTTP Request, JDBC (Java Database Connectivity) Request, Access Log Sampler, SMTP Sampler
+- Listeners: Graph, Table, Tree, Logs
+
+- Runtime and Random Controllers usage in JMeter.
+- if and Loop controller Importance for Stress testing.
+
+@all Leaving for the day.
+attended
+internal
+
+
+- Performed various setUp Thread Group and tearDown Thread Group Test plans.
+- Advanced Thread Group Methods for Real time load with Jmeter.
+
+- Watch Udemy courses and implemented.
+- Http Cookie Manager to capture sessions.
+
+- Performed How to validate  Jmeter tests- Pass/Fail status.
+- Different types of Assertions which can you use on Jmeter tests.
+
+- controllers helps to track performance of Modules of application.
+- if  and Loop controller Importance for Stress testing
+
+- Performed Perform different types of samplers, logic controllers listeners.
+- Create a document based on the relevant topics.
+
+- I have real-life practiced with the entire payment gateway integration, including various methods like UPI payments, credit and debit card payments, net banking and Mobile wallets.
+- I have real-life practiced in E-commerce platform flow testing, from its initial setup to the entire checkout process and confirmation invoice.
+
+Note: I have submitted the presentation as per the created in our live driver folder.
+
+
+@all Leaving for the day.
+
+- Watch Udemy courses and implement them.
+- Different types of Assertions that can you use on Jmeter tests
+- Performed different types of samplers, and logic controllers listeners.
+
+
+
+Hello Keyul Good Evening!(smile)
+
+Project Name : Broker central:
+
+I have tested it with multiple user login at a time it is working fine now.
+
+Here I have attached a short video, please watch it.
+
+-> https://app.screencast.com/RHePJk5dBlDhs
+
+-> https://sagarwitpath.tinytake.com/msc/ODk1NTMyMF8yMjQzMDI1Mw
+
+Thanks..!
+
+{
+    "USERNAME" :"abdevilliers101@yopmail.com", 
+    "PASSWORD":123456
+}
+
+
+
+{
+    "UserName":"Pratiks@yopmail.com",
+    "Email":"Pratiks@yopmail.com",
+    "FirstName":"Pratik",
+    "LastName":"solanki",
+    "Password":"123456",
+    "City":"InterNet",
+    "CountryCode":"+91",
+    "PhoneNumber":1234567811,
+    "BirthDate":"08/06/2001"
+}
+
+
+Purpose of the Thread Group:
+This Thread Group simulates user behavior for the product search functionality on the e-commerce website. It tests the performance and response time of search queries under load.
+
+User Load Details:
+- Number of Threads (Users): 100
+- Ramp-Up Period: 60 seconds
+- Loop Count: 10
+
+Test Scenario:
+1. User navigates to the homepage.
+2. User logs in using credentials from CSV file.
+3. User performs a product search with a keyword.
+4. User views search results.
+5. User logs out.
+
+Key Metrics to Monitor:
+- Search query response time.
+- Error rate during login and search.
+- Throughput of search requests.
+
+Special Configurations:
+- CSV Data Set Config for parameterizing login credentials.
+- HTTP Cookie Manager to manage session cookies.
+- HTTP Cache Manager to simulate browser caching behavior.
+
+Assumptions and Preconditions:
+- Users have valid login credentials in the CSV file.
+- The search functionality is operational and indexed.
+
+Expected Outcomes:
+- Search response time should be less than 2 seconds for 95% of requests.
+- Error rate should be below 1%.
+
+Dependencies:
+- This Thread Group depends on the User Setup Thread Group to initialize user accounts and data.
+
+
+
+
+
+@Payal Task Update:  (8:30 hours)
+
+ENTR App API performance testing.
+
+Perform performance testing using the JMeter tool
+
+- Perform various types of test plans using both the Open Model Thread Group and the Thread Group.
+- Use different types of samplers, including HTTP, HTTPS, FTP, TCP, SMTP, and SOAP requests.
+- Utilize logic controllers and listeners, such as Generate Summary Results and Aggregate Report.
+- Conduct verification using assertions, including Response Assertion and JSON Assertion.
+- Understand how to calculate the ramp-up period.
+- Watch Udemy courses and implemented.
+- Record the application under test with JMeter.
+- Record and play back JMeter scripts.
+- Understand the importance of the Thread Group in JMeter.
+
+@all Leaving for the day.
+
+
+- Performed various setUp Thread Group and tearDown Thread Group Test plans.
+- Advanced Thread Group Methods for Real time load with Jmeter.
+- Http Cookie Manager to capture sessions.
+- Performed How to validate  Jmeter tests- Pass/Fail status.
+- Different types of Assertions which can you use on Jmeter tests.
+- controllers helps to track performance of Modules of application.
+- if  and Loop controller Importance for Stress testing
+- Performed Perform different types of samplers, logic controllers listeners.
+- Create a document based on the relevant topics.
+- I have real-life practiced with the entire payment gateway integration, including various methods like UPI payments, credit and debit card payments, net banking and mobile wallets.
+- I have real-life practiced in e-commerce platform flow testing, from its initial setup to the entire checkout process and confirmation invoice.
+
+
+
+
+- Perform various types of Test plans open model thread group and thread group.
+- Perform different types of samplers of samplers include Requests that could be HTTP, HTTP(s), FTP, TCP, SMTP, SOAP.
+- Perform logic controllers listeners Generate Summary Results, Aggregate Report
+- perform verification using assertions Response Assertion, JSON Assertion.
+- understaned of the calculate the ramp-up period.
+- Watching Udemy courses and implemention.
+- Recording the application under test with Jmeter.
+- Recording and playback Jmeter Scripts.
+- Importance of Thread Group in Jmeter.
+
+
+
+@all Leaving for the day.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Here’s a revised version with corrected grammar and clearer phrasing:
+
+- Conducted performance testing using the Apache JMeter tool.
+- Tested real-life APIs with various types of HTTP methods.
+- Retrieved data by configuring the number of user threads.
+- Performed POST requests with body data while analyzing stability and response times under load.
+- Analyzed user responses using Aggregate Graph Results and Graph Results.
+- Gained an understanding of Test Plan, Thread Group, and Sampler Request properties.
+
+- Watched video tutorials on the following topics:
+  - Various types of Config Elements
+  - Different Listeners and Timers
+  - Apache JMeter's pre-processors and post-processors
+  - Validations using assertions in JMeter
+  - JMeter test fragments and non-test elements
+  
+- I have also tested how to pass parameters with requests, handle body data, and work with different HTTP methods such as GET, POST, PUT, and DELETE.
+- I performed the creation of the Test Plan, Thread Group, and Sampler Requests. 
+
+- I also analyzed user responses using the View Results Tree and Results Table.
+- I have also created a document on the relevant topics below:
+
+- What is Performance Testing.
+- Types of performance testing with real world examples.
+- we need Performance Testing.
+
+- What is the Apache JMeter tool and why is it specifically used for performance testing JMeter tool.
+- List of Performance Testing Tools.
+
+@all Leaving for the day.
+
+Perfome all types various Config Elements
+Perfome different Listeners and timers
+Apache jmeter Perfome preprocessor and postprocessor
+jmeter Perfome validations using assertions
+jmeter test fragment and non test element	
+
+Thread (users) - open model Thread group. 																					
+
+
+
+
+
+
+
+Test Cases Design Techniques:
+- I prepared below Test Cases Design Techniques.
+- Functional Testing Techniques.
+- Non-Functional Testing Techniques.
+- Structural Testing Techniques.
+- Exploratory Testing Techniques.
+- Regression Testing Techniques.
+- Integration Testing Techniques.
+- System Testing Techniques.
+- Acceptance Testing Techniques.
+- Error guessing techniques.
+
+- Create and configure a test plan.
+- Set up thread group properties.
+- Use various samplers to test different scenarios.
+- Implement and analyze different types of listeners.
+
+
+JMeter Tool:
+- I started from scratch on how to perform non-functional testing using the JMeter tool.
+- Below are the different types of performance testing to understand.
+- Load testing, Stress testing, Volume testing, Scalability testing, Soak testing, Spike testing.
+
+@all Leaving for the day.
+
+
+- JMeter Perform entire non-functional testing from scratch.
+
+- I have taken a demo session on database testing.
+- I have explained SQL, database, tables in SQL, DBMS, and RDBMS.
+- Explain SQL data types, including string data types, numeric data types, and date and time data types.
+- Using MySQL Workbench, I demonstrated how to execute SQL queries.
+- Explain the creation and use of a database.
+- Explain SQL queries on the created tables.
+- Explain queries to insert, update, delete, and select records.
+- Explain primary keys and foreign keys.
+- Explain JOIN operations in SQL, including different types of joins, with real-life examples.
+- Sort records using ORDER BY and GROUP BY.
+- Explain the difference DROP and TRUNCATE, and  ALTER.
+
+@all Leaving for the day.
+
+
+
+
+
+
+- Database and table create
+- Different ways SQL queries can execute to retrieve data
+- Explain CRUD operations
+- Explain various types of joins
+
+- Database and table create
+- Different ways SQL queries can execute to retrieve data
+- Explain CRUD operations
+- Explain various types of joins
+
+- Executed various SQL queries to retrieve data using different methods.
+- Demonstrated the use of SELECT statements for data selection.
+
+- Implemented various types of joins.
+- Created a database and tables.
+
+- Performed CRUD operations on different tables.
+- Executed LEFT JOIN, RIGHT JOIN, and FULL JOIN operations.
+
+- Implemented logical queries using SQL operations.
+- Implement a SQL query to find the highest and lowest salary.
+
+- Attended a meeting on Deevo app with Rahul.
+- Given in mock round interview.
+
+@all Leaving for the day.
+
+- Is DB Testing a back-end or front end  process?
+- 
+
+Inner Join
+Left Join
+Right Join
+Full Join
+Cross Join
+Self Join
+
+
+Demo preparation on the Database Testing.
+I have performed Different ways SQL queries execute to retrieve data.
+performed on the SELECT stament commned on the multiple way to data selection.
+Perform different types of joins.
+I have created one data base as well tabel.
+I have performed CRUD operation on the different tables on it.
+I have performed on the differences types Joins LEFT JOIN RIGHT JOIN FULL JOIN.
+Implement logical
+
+
+
+queries using SQL operations.
+attended deevo app meeting with Rahul.
+Give mock round interview.
+
+@all Leaving for the day.
+
+- Difference virius way to retrieves data using SQL queries.
+- perfome different types of joins.
+- perfome logical queries implementation
+
+Hello how are you all 
+
+i would like to inform you today i have a provide demo session of data base testing so let get started.
+
+
+
+
+- Prepare a demo on database testing and create a document.
+- Learn about SQL, databases, SQL tables, DBMS & RDBMS, SQL data types, and operators.
+
+- Install tools such as MySQL Workbench for it.
+- Implement the creation and usage of databases.
+
+- Execute SQL queries on created tables. Implement queries to insert, update, delete, and select records.
+- Understand primary keys and foreign keys.
+
+- Performed record filtering in SQL.
+- Performed SQL JOINs to explore various types of joins in Workbench.
+
+- Create a document based on relevant topics.
+- Database testing process.
+- Types of database testing
+
+FYI - I created a document and uploaded it to our team's shared folder.
+
+@all Leaving for the day.
+
+
+
+
+database
+Prepare a demo on Database Testing and created one document.
+Larne of that SQL, database, table in SQL, DBMS & RDMBS SQL Data Types and operators.
+Tool that need to be installed for it for MySQL Workbench.
+Implemented the creation and use of databases.
+Implemented SQL queries on the created tables.
+Implemented queries to insert, update, delete, and select records.
+primary key & foreign key.
+performed of filter records in SQL.
+performed JOIN in SQL for virus types joins Implemented in the Workbench.
+As per relevent topic created document.
+
+(1) Book It Here (3:30 hours)
+- I performed retesting on the entire portal.
+- Follow up on the sheet and update it accordingly.
+- Performed regression and integration testing on the entire portal using different roles.
+- Reported bugs and added them to the live sheet.
+
+(2) ENTR App (5:00 hours)
+- Performed demo practice for automated API testing using Cucumber BDD framework.
+- Tried to resolve error stuck on the as per future file scenarios, not running step definition and TestRunner.
+
+- I Implemented the login API on the ENTR GROUP DEV Environment.
+- Research on the Relevant topics and Preparing documentation for the demo.
+- Demo practice for automated API testing using Cucumber.
+
+- Resolved the below issue.
+- When I send a POST request to "/api/login" # StepDefinition.Entrloginstepdefinition.i_send_a_post_request_to(java.lang.String)
+- The method given() is undefined for the type Entrloginstepdefinition
+
+@all Leaving for the day.
+
+- Performed Demo practice for automated API testing using Cucumber BDD framework.
+- Try to resolved errro stuck on the as per future file senarios not running step definition and testRunner.
+- I implemented the login API on the ENTR GROUP DEV environment.
+- Resolve the below issue.
+- When I send a POST request to "/api/login" # StepDefinition.Entrloginstepdefinition.i_send_a_post_request_to(java.lang.String)
+
+@all Leaving for the day.
+
+Today's Plan:
+- I Performed Re Testing on the entire portal.
+- Follow up on the sheet, and update it accordingly.
+- Performed Regression and integration testing on the entire portal using Different roles.
+- Reported bugs and added them to the live sheet.
+
+(1) Book It Here (Approx. 4:30 hours)
+- Performed Re-testing and Regression testing.
+- Follow up on the sheet, and update it accordingly.
+(2) ENTR App (Approx. 4:00 hours)
+- Performed automation API testing using Cucumber framework.
+- create and Preparing documentation for the demo.
+- Demo practice for automated API testing using Cucumber
+
+
+To Do - 8 Hours >> Book It Here & ENTR App
+(1) Book It Here
+- Performed Re-testing and Regression testing.
+(2) ENTR App
+- Performed automation API testing using Cucumber framework 
+- Preparing documentation for the demo
+
+
+Hello Payal 
+Can I leave early at 6:00-PM, Due to going hometown and if I need to compensate for my remaining time, I will complete for it on next week.
+Thanks 
+
+
+(1) Book It Here (3:00 hours)
+- I Performed Re-testing on the entire portal.
+- Follow up on the sheet, and update it accordingly.
+- Performed Regression and integration testing on the entire portal using Different roles.
+- Provided an update to the team on the overall regression status from the testing side.
+
+(2) ENTR App (5:00 hours)
+- Performed Demo practice for automated API testing using Cucumber BDD framework.
+- Create and Preparing documentation for the demo.
+- I have designed and created the login scenario script, and I have also designed its corresponding future file.
+- As per future file created Test-Runner and Step-Definition along with there onw  class properties.
+- I implemented the login API on the ENTR GROUP DEV environment.
+- Resolve the below issue.
+- java.lang.NullPointerException: Cannot invoke the configuration
+
+
+- I have completed all role-specific Integration and System Testing.
+- Reported bugs and added them to the live sheet.
+
+- I have performed overall flow functionality testing for each role.
+- Followed the bug sheet to check if there are any bugs still in progress from our end.
+- Worked on the Manager role dashboard functionality testing.
+- Worked on the User role dashboard functionality testing.
+- Worked on the HOD role dashboard functionality testing.
+- Worked on the User management functionality testing.
+- Worked on bulk data entry and assigning departments to new users.
+
+- I have completed all role-specific Integration and System Testing.
+- Reported bugs and added them to the live sheet.
+- Performed Regression testing on the entire portal with various Roles: User, HOD, Admin, and Manager.
+- I have performed overall flow functionality testing for each role.
+- I followed the bug sheet to check if there are any bugs still in progress from our end.
+- Worked on the Manage role dashboard functionality testing.
+- Worked on the user role dashboard functionality testing.
+- Worked on the HOD role dashboard functionality testing.
+- Worked on the user management functionality testing.
+- Worked on the bulk data entry and assigning departments to new users.
+- Worked on the department, company, group, resource, schedule type, slot, venue, and setting role modules functionality testing.
+
+
+
+- I performed a thorough check of the entire portal for each role to ensure all functionalities work correctly.
+
+
+(2) R&D : Databse Testing. (3:30 hours)
+- Perform on the simple core project and a Cucumber framework project.
+- Performed positive and Negative test scenarios and executed the test scripts.
+- Research on why we need to use database testing.
+- Database testing process.
+- Types of database testing.
+
+- How to perform database testing manually and with the help of automation tools.
+- I have installed the MySQL Workbench server.
+- I have implemented the creation and use of databases.
+- Implemented SQL queries on the created tables.
+- Implemented queries for inserting, updating, deleting, and selecting records.
+- I fixed the issues reported by Team Member they were Unable to click on the screen using automation script.
+
+
+Here's a corrected version of the text:
+
+- What is data?
+- What is SQL?
+- What is a database?
+- What are DBMS and RDBMS?
+- Types of tools that need to be installed for it.
+- Implementing the creation and use of databases.
+- Implementing SQL queries on the created tables.
+- Implementing queries to insert, update, delete, and select records.
+
+@all Leaving for the day.
+
+
+What is SQL?
+What is a database?
+What is a table in SQL?
+SQL stands for Structured Query Language. It is used to communicate with and manipulate databases.
+
+- Research on Why we need to use database Testing
+- Database testing process
+- Types of database testing
+- How to perform database testing manually and with the help of automation tool
+- I have installation of the MySQL Workbench server.
+- I have implemention on the create and use of Database
+- Implemented on the created table SQL queries.
+- Implemented for query executed of the insert updated deleted and select.
+
+- Perform regression testing on the entire portal with various roles User, HOD, Admin, and Manager.
+- I have performed overall flow functionality testing for each role.
+- As there are multiple roles, I have conducted integration testing for each role.
+- I performed a thorough check of the entire portal for each role to ensure all functionality works correctly.
+- I followed the bug sheet to check if there are any bugs still in progress from our end.
+- workend on the dashboard functionality testing.
+- workend on the session creating functionality testing.
+- workend on the sessionList functionality testing.
+- workend on the user management functionality testing.
+- workend on the Bulk data Entry and Assign Department to New Users.
+- workend on the department,company,group,resource,scheduletype,slot,venue,setting role modules functionality testing. 
+
+
+
+
+- I have provided an updates to the team.
+- Performed overall regression testing for each role.
+- Worked on the "user list" and "pending Users" modules.
+- I have performed overall flow functionality testing for each role.
+- As there are multiple roles, I have conducted integration testing for each role.
+- I performed a thorough check of the entire portal for each role to ensure all functionality works correctly.
+- I followed the bug sheet to check if there are any bugs still in progress from our end.
+- I have provided an updates to the team.
+- Performed overall regression testing for each role.
+- Worked on the "user list" and "pending Users" modules.
+- I have performed overall flow functionality testing for each role.
+- As there are multiple roles, I have conducted integration testing for each role.
+- I performed a thorough check of the entire portal for each role to ensure all functionality works correctly.
+- I followed the bug sheet to check if there are any bugs still in progress from our end.
+- I have provided an updates to the team.
+- Performed overall regression testing for each role.
+- Worked on the "user list" and "pending Users" modules.
+
+
+
+(1) Career FAQs       
+- Performed browser compatibility testing on the entire website. 
+- Tested on the Mac Safari browser as well as Google Chrome, as per the given Figma wireframes.
+- Reported bugs and added them to the live sheet.
+- Performed Responsive testing on the website.
+- Internal discussion with the developer.
+
+@all Leaving for the day.
+
+ 
+
+@all Leaving for the day.
+compatibility
+
+discussed
+- Attended the Scrum meeting and the internal team member discussion.
+- Performed overall regression testing and re-testing based on the client's feedback.
+
+- Reported bugs and added them to the main new tab sheet.
+- Worked on the review as per the client's feedback.
+
+- Added correction bug descriptions to the sheet.
+- Followed up on the identified bugs and updated the bug sheet accordingly.
+
+- Completed testing the entire functionality for both admin and user roles.
+- Knowledge transfer provided by Rahul.
+
+- Tried to understand the Hangfire cron job.
+
+ 
+@all Leaving for the day.
+
+
+
+- For each bug, identify whether it is related to design or functionality and ensure all bugs are documented along with their respective priorities.
+- Conducted overall regression testing and re-testing on both the live servers for all modules.
+
+- Followed up on the identified bugs and updated the bug sheet accordingly.
+- Completed testing the entire functionality for both admin and user roles.
+
+- Reported bugs and added them to the live sheet.
+- Worked on the Election module, covering sections for Election Information, Race Information, Incumbents Information, Reporting Units Information, and Candidates Information.
+
+- Worked on the user dashboard, calculating percentages for the pie chart, and on the user grid for single and multiple column searches.
+ 
+
+How can aAdmin meke sure highr level or lover level election reces created via manual ?
+still Admin role for election grid R-can, Rvote, D-can, Dvote, data record not dispayed.
+
+11/3/2020
+
+
+Test@1234
+
+Testing status updated:
+
+I have performed overall Regression testing and Re-testing of all modules on live server.
+ 
+Today, new bugs were found: 07
+(Functionality Issue) : 2
+(Design Issue)  : 3
+Suggestion   (Functionality Issue) : 2
+
+@all Leaving for the day.
+
+
+I would like to inform you that I will be taking Parentery leave starting on next month. The expected duration of my leave is around 1 week.
+Please let me know if there are any additional steps I need to take to prepare for my leave.
+
+
+
+
+User for eche grid and login, profile changes, password reset, password change, and Election operations
+for each subsection, followed by user CRUD operations.
+
+@all Leaving for the day.
+
+- As per the new features and functionalities developed, we have discussed them.
+- I have worked on the admin role for testing the dashboard, including counts, charts, etc.
+- I have worked on creating sessions, checking the functionality of user approval and rejection.
+- I have reported bugs and added them to the live sheet.
+- I have performed overall regression testing.
+- I have worked on the user modes, creating various roles for admin, HOD, user, and manager.
+- I have worked on bulk entry user creation.
+- I have worked assigned departments to new users.
+- I have worked on the New User Request module for unapproved and unverified records.
+- I have performed testing on the Department module, focusing on impacted areas of functionality.
+- I have performed testing on the Company module, and check  on impacted areas of functionality.
+
+@all Leaving for the day.
+
+reg
+
+Ad@12
+
+
+
+ Admin@123
+
+- Followed up on the identified bug sheet and updated it accordingly.
+- Perform as per client’s concern sheet.
+- Reported bugs and added them to the live sheet.
+
+(2) Journey Joy App (Approx. 4:30 hours)
+
+- I have worked on the Test overall Regression testing and Re-testing on all the modules.
+- Perform functional testing for each module and roles.
+
+- I have worked in various different roles: Admin, Agency, Driver, and User.
+- Mobile APK installation and setup.
+
+- Followed up on the identified bug sheet and updated it accordingly.
+- Reported bugs and added them to the live sheet.
+
+@all Leaving for the day.
+
+(1)Axiom Election
+- Attended the Scrum meeting and the internal team member discussion.
+- Perform regression testing and re-testing on all the modules.
+(2) Book It Here
+- Perform regression testing on the entire portal with various roles User, HOD, Admin, and Manager.
+
+
+- Assigned bugs and suggestions to the developers.
+- Verified and updated the resolved bugs accordingly.
+
+ functionality
+@all Leaving for the day.
+
+MOM for date 21-06-2024:
+
+- Add individual column search in dashboard election list. 
+- Dashboard should be visible to users only and not to admin. -
+- In historical list add search functionaltiy in races dropdown.
+- Normal user can edit their assigned elections, can not create new one.
+- In CG/Affilate/Company field remove dropdown and put textbox only.
+- Election list page, an error throws in individual column search.
+- Show last five years data in historical list page.
+- Add SeatName field in races add/edit page.
+- In race dropdown in incumbents panel, this will be the text that we need to show there: RaceId-Officename-StatePostalCode-SeatName(if available.)
+- In candidate panel while you select the reporting unit from dropdown, dropdown shoule be closed after selecting.
+- In candidate panel-reporting unit dropdown should have this text: Id-StatePostal-Level.
+- In lower level election add/edit screen there will be only one reporting unit.
+- Pre select the option in reporting unit dropdown if there is only one option available.
+
+follow
+@Payal Task Update:
+
+(1)Axiom Election (8:30 hours)
+
+- Attended scrum and internal team discussions.
+- Attended client call and then our internal meetings for discussion points as per MOM.
+
+- I have performed all admin roles with the user.
+- Reported bugs and added them to the live sheet.
+
+- Went through testing of overall functionality for the user module.
+- I performed CRUD operations for the election module.
+
+- Conducted overall regression testing and re-tested all functionalities.
+- Followed up on the identified bug sheet and updated it accordingly.
+
+- Assigned bugs and sugg
+estions to the developers.
+- Created races for election information.
+
+@all Leaving for the day.
+
+
+
+- Attended scrum and internal team discussions.
+- Attended client call and then our internal meetings fro as per MOM point releertd dissctuion.
+- I have performed all Admin roles with the User .
+- Reported bugs and added them to the live sheet.
+- Went through testing overall functionality for the user module.
+- I have performed CRUD operations for election module.
+- Performed overall regression testing and Re-tested all functionalities.
+- Followed up on the identified bug sheet and updated it accordingly.
+- Assigned bugs and suggestions to the developers.
+- Created Races of Election information.
+- 
+
+(1)- Axiom Election (Approx. 3:00 hours)
+- Attended the Scrum meeting and internal team discussions.
+- Performed overall regression testing and Re-tested all functionalities.
+
+(1) Axiom Election (3:30 hours)
+- Attended the Scrum meeting and internal team discussions.
+- Performed overall regression testing and Re-tested all functionalities.
+- Assigned bugs and suggestions to the developers.
+
+
+
+
+Axiom Election
+- Attend the Scrum meeting and internal team discussion.
+- I have worked on the entire election module functionality as per the latest published.
+- Reported bugs have been documented in the live sheet.
+
+Axiom Election (Approx. 2:20 hour)
+- Attend the Scrum meeting.
+- Perform re-testing and overall regression testing on the entire election module.
+- Internal team member discussion. (if any required)
+
+
+- Attend the Scrum meeting, Client demo, and internal team discussion.
+- I have worked on the entire Election module.
+- Created Races of Election information.
+- I have worked on the reported bugs and added them to the live sheet.
+- Overall functionality testing of each tab of the Election module.
+
+
+
+ENTR App demo preparation (8:30 hour)
+- Cucumber BDD overview and its related terminologies.
+- Creating a Maven project with Cucumber Rest Assured Dependencies.
+- Building Test Runner and Step Definition files for Add Place API Feature Test.
+- Running the Test in Cucumber Standards with necessary Configuration changes.
+- Building Utility Files and Implement Logging features in the Framework.
+- Data Driven Testing Mechanism for API Tests using Cucumber example feature
+- Parameterize API  Test with multiple Data sets using Cucumber Framework features
+- Execute the Login API script with both positive and negative test scenarios.
+- I have the preparation of demo documentation.
+
+@all Leaving for the day.
+
+
+@Payal Task Update: (2:30 hours)
+
+ENTR App - BDD cucumber framework (6:00 hours)
+- Configuration of the Cucumber and Rest Assured framework.                                       
+- Execute the script for the Register API.
+- Maven project with Cucumber Rest Assured add to the Dependencies. 
+- Try to resolve the error.
+- API  Test with multiple Data sets using Cucumber Framework features.
+- Udemy tutorial watching for BBD cucumber framework and as per topic implementation.
+- I have the preparation of demo documentation.
+- Data Driven Testing Mechanism for API Tests using Cucumber example feature.
+
+@all Leaving for the day.
+
+To Do - 8 hours >> Axiom Election, ENTR App demo preparation
+
+ENTR App demo preparation (8:30 hour)
+- Cucumber BDD overview and its related terminologies.
+- Creating a Maven project with Cucumber Rest Assured Dependencies.
+- Building Test Runner and Step Definition files for Add Place API Feature Test.
+- Running the Test in Cucumber Standards with necessary Configuration changes.
+- Building Utility Files and Implement Logging features in the Framework.
+- Data Driven Testing Mechanism for API Tests using Cucumber example feature
+- Parameterize API  Test with multiple Data sets using Cucumber Framework features
+- Execute the Login API script with both positive and negative test scenarios.
+- I have the preparation of demo documentation.
+
+- Watching Udemy courses and implemention.
+
+(1) Emissaries (2:00 hour)
+- Testing resolved bugs.
+- I have worked on verifying all the bugs found during testing.
+- Performed browser compatibility and responsiveness issue verification.
+
+(2) Axiom Election (4:00 hour)
+- Attend the Scrum meeting, Client demo, and internal team discussion.
+- I have worked on the entire Election module.
+- Created Races of Election information.
+- I have worked on the reported bugs and added them to the live sheet.
+- Overall functionality testing of each tab of the Election module.
+
+(3) ENTR App API Testing Using Cucumber - BDD Framework. (2:30 hour)
+- Demo preparation
+- Login APIs script execute.
+- Try to resoled error.
+- Positive and negative test cases execute.
+
+@all Leaving for the day.
+
+
+
+Mock Interview:
+
+
+tell me about yourself introduction
+
+
+- Hello Sir/Ma'am, Good morning, or Afternoon, or Evening.
+- Thanks for giving me this golden opportunity to introduce myself before this panel.
+- My name is Mahendra Chauhan.
+- I completed my BCA from Gujarat University in 2016 and my MCA from Gujarat Technological University in 2018 then after
+- I started my career at IT path solutions as Associate Quality Analyst.
+- And I have 2 years and 8 months of experience in the software testing field.
+- 
+
+(1) Cucumber - BDD Framework.
+- I have watched a video tutorial on the Cucumber BDD framework.
+- According to the video tutorial course, I have performed to the project.
+- Performed the setup and developed the framework from scratch level.
+- Research to identify the required Cucumber BDD framework Maven dependencies to add for the installation of the entire tool.
+- BDD(Behavior Driven Testing)  vs TDD (Test Driven Testing)
+- created feature file for login test feature
+- created page object class for login API page
+- created step definition file for feature file (login test feature)
+- created test runner file to run test case
+
+@all Leaving for the day.
+- Perform positive and negative test scenarios on the ENTR App login API.
+- Create differences various test summary Reports.
+Today's Plan:
+
+[1]
+ 
+- Axiom Election (Approx. 1:30 hour)
+- Attend scrum meeting.
+- Overall functionality testing(if any)
+- Follow-up on the bug sheet.
+
+Axiom Election (Approx. 1:00 hour)
+- Attend scrum meeting.
+- Follow-up on the bug sheet.
+	
+Deevo App (Approx. 2:30 hours)
+- Follow up on the board and to move the still in-progress tickets on the staging server to the "Done" column.
+- I have worked on the resolved bugs verified and update them accordingly.- Need to test Below Tickets.
+- #107 Unique customer display at product analytics.
+	
+(3) Book it Here (5:00 hours)
+
+Axiom Election (2:00 hours)
+- Attend scrum meeting as well as client call.
+- I have followed up on the bug sheet.
+Deevo App (1:30 hour)
+- I have worked on the testing for the 'Ready for QA' Tickets and moved them to the 'Done' column.
+- Followed up on the identified bugs sheet and updated the status of each bug accordingly.
+ENTR App :(5:00 hours)
+- Research in more detail from a tester's perspective.
+- Prepare a second demo  documented of presentation addressing the concerns from the previous demo.
+- Perform on the simple core project and a Cucumber framework project.
+- Performed positive and Negative test scenarios and executed the test scripts.
+- Try to resolve the error in the simple core project jar configuration.
+
+@Payal Task Update:
+
+(1) Book It Here (4:00 hours)
+- I have worked on the entire flow of creating session management functionality testing for each module.
+- I have performed tests to verify various roles and rights as per companies and departments.
+- Ensured the functionality of user sessions created for different slots.
+- Performed overall regression testing for each role.
+- I have worked on bulk data entry using an Excel sheet.
+
+(2)R&D Cucumber - BDD framework. (4:00 hours)
+- I have researched the few concerns from yesterday's demo.
+- Perfome on the simple core project and a Cucumber framework project.
+- Highlighted and explained the major differences between simple projects and framework projects.
+- Performed positive and negative test scenarios and executed the test scripts.
+- Research how to make different types of summary reports.
+
+@all Leaving for the day.
+
+@Payal Task Update:
+
+(1) Deevo App (3:30 hours)
+- Attended scrum meetings and internal team discussions.
+- I have worked on the overall regression testing as per the assigned task tickets.
+- Testing has been conducted according to the client's feedback, and new CR points have been tested and updated accordingly.
+
+- Followed up on the identified bugs sheet and updated the status of each bug accordingly.
+- I have worked on the testing for the 'Ready for QA' tasks and moved them to the 'Done' column.
+
+(2) Cucumber-BDD Framework (5:00 hours)
+- Reviewed the entire presentation according to the created topics.
+- Conducted a demo session on live performance Cucumber BDD framework automation testing. 
+- Executed scripts using the Cucumber BDD API framework development.
+- Conducted research and Q&A as per the demo topics.
+- I have explained how the entire Cucumber BDD framework works.
+- I have research as per demo few concern with team.
+
+@all Leaving for the day.
+
+assigned
+
+@Payal Task Update:
+scrum
+
+(1) Deevo-App  (4:30 hours)
+- Attended scrum meetings and internal team discussions.
+- Testing has been conducted according to the client's feedback and any new change requests have been updated accordingly.
+- Perform overall regression testing as per the assigned tasks tickets.
+- I have worked on the following tickets and moved them to the 'Done' column.  
+#91  Merge Total Orders and Total revenue chart.
+#90  Reset Password Functionality.
+#108 Customer Purchase history in Table format.
+#109 View all product analytics functionality. 
+#110 Add last purchase date in customers table. 
+#111 Categorize notifications in Today, Yesterday, and Last week.
+
+(2) Demo Session for Cucumber-BDD Framework. (4:00 hours)
+- Review the entire presentation as per the created topics.
+- Add a live Demo attchmebnt in the preparation to show how the entire framework works.
+- Tried to resolve the below error.
+- java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+- I have created a live demo project and executed the test scenario scripts.
+
+@all Leaving for the day.
+assigned
+follow
+
+(2)- Deevo App (Approx. 2:00 hours)
+- Testing as per sprint 5 feedback and overall regression testing.
+- Need to review the latest sheet provided by the client for Sprint 5 feedback.
+(3)- Book it Here (Approx. 1:30 hours)
+- Functionality testing for each modules.
+- Perform overall regression testing for each role.
+(4)- Demo Session for Cucumber-BDD Framework (Approx. 2:00 hours)
+- Review the entire presentation as per the create d topics.
+- Add a live demo to show how the entire framework works.
+
+
+
+@Payal Task Update:
+
+(2)Demo Session for Cucumber-BDD Framework. (5:30 hours)
+- I have worked on correcting the presentation document.
+- Prepared the Cucumber BDD API Framework development from scratch.
+- Built Cucumber feature files for Rest Assured API tests.
+- Implemented the design for the framework, including feature files, step definition files, and test runners.
+- Tried to resolve the error: "java.lang.IllegalArgumentException: The glue path contained invalid identifiers step/StepDefinition.java.
+- Tried to resolve the issue with the glue path containing invalid identifiers: step/StepDefinition.java.
+- Addressed the undefined attribute format for the annotation type CucumberOptions.
+- Understood the required specifications for the test runner, including features, glue, tags, and plugins, for Cucumber feature files used in Rest Assured API testing.
+
+
+@all Leaving for the day.
+
+- Performed integration testing for each role according to their various functionalities in each module.
+- I have worked on the reported bugs and added them to the live sheet.
+- I have performed session processes according to different roles.
+
+
+(1) wealthyme (2:00 hours)
+- I have worked on fixing the found bugs and performed re-testing on the entire website using various different web browsers.
+- I have updated the team accordingly via email.
+
+Wealthyme (03:30 hours)
+- Performed browser compatibility testing on the entire website.
+- I have worked on testing with the Mac Safari browser.
+- Reported bugs have been documented in the live sheet.
+
+
+Deevo-App (2:30 hours)
+- Testing according to assigned tasks
+- We had internal discussions with the developer regarding all service APIs on staging to ensure the response is the same as the Aggregator in production.
+- Performed API testing using the Swagger tool.
+- Created both Brand and Brand Subscriptions on Square POS and Uber Eats. 
+- Performed staging service testing to align with the production live development Aggregator.
+	 
+Demo - Session on Cucumber - BDD Framework. (1:30 hours)
+- Create PPT presentation.
+- I have Performed, I am going to give a live demo session.
+- Test Runner as well as performed live Example.
+- Framework Integration.
+- Gherkins
+- Cucumber reports
+
+
+
+
+
+
+
+
+@Payal Task Update:
+
+ENTR - App
+
+- I have worked on implementing the Cucumber (Behavior-Driven Development - BDD) Framework using Selenium in Java programming language.
+- I conducted research based on the submitted demo session topic agenda.
+
+- I have prepared material for the demo session according to the specified topic.
+- I have recall to performed of the cucumber framework of the creation of the project.
+
+- I created the necessary preparation materials as outlined in the provided topic.
+  - What Is Cucumber.
+  - What is Behavior Driven Development.
+  
+  - How To Cucumber Installation.
+  - What is Cucumber.
+  - Feature File.
+  
+  - Structure of BDD Cucumber.
+  - Feature File Example.
+  - Step Definition of cucumber.
+  - Step Definition Example.
+  - Test Runner.
+  
+Note: I have submitted the presentation as per the created in our live driver folder.
+
+@all Leaving for the day.
+
+
+Staging : service == Same to same live : Aggreagtor
+
+
+2024-12-15
+
+
+
+
+
+(1) Axiom Election (Approx. 1:30 hours)
+	- Performed re-testing as well as overall regression testing.
+	- Need to follow up on identified bugs sheet and update the status of each bug accordingly.
+(2) Deevo-App  (Approx. 1:30 hours)
+	- Followed up on the identified bugs and updated them accordingly.
+(3) Book It Here (Approx. 3:00 hours)
+	- Performed overall regression testing.(Approx. 2:30 hours)
+(4) R&D Demo session on the Cucumber BDD Framework. (Approx. 2:30 hours)
+
+
+
+
+Jinkal To-Do in IPS- workspace:
+
+- Sorting in ascending and descending order testing on the Election module.
+- Performed overall regression testing.
+
+
+Behavior Driven Development.
+Cucumber installation
+What is Cucumer.
+Feature file.
+Step Definition of cucumber.
+Test Runner.
+Framework Integration
+What is Gherkins.
+Cucumber reports
+
+
+
+how to fix this error 
+java.lang.IllegalArgumentException: path must exist: C:\Users\baps\eclipse-workspace\Demo_Cucumber_BDD\.\Featurefile\Login.feature
+
+
+how to fix this error 
+io.cucumber.junit.UndefinedStepException: The step 'User Launch Chrome browser' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Payal Task Update:
+
+(1) Mortons Urban Solutions & Water2Water (Approx. 3:00 hours)
+    - I have worked on the Re-testing of the entire website.
+	- Based on the earlier findings, I have tested, resolved the bugs, and updated them accordingly on the live sheet. I performed the re-testing.
+	
+(2) Axiom Election (Approx. 3:00 hours)
+	- Attended scrum meetings and internal team discussions.
+	- I have follow up on identified bugs sheet and update the status of each bug accordingly.
+	- I have worked on the overall Re-testing as wll as Regression testing.
+	- I have worked on the Change Password, Profile, and Forgot Password module functionalities.
+	- Reported bugs have been documented in the live sheet.
+	
+(3) Deevo-App  (Approx. 2:30 hours)
+	- Attended scrum meetings and internal team discussions.
+	- Testing According to the client, there are three new CR points that need testing.
+	- Perform overall regression testing as per the assigned tickets and move them to the "Done" column.
+	  #91 Merge Total Orders and Total revenue chart.
+	
+		#90 Reset Password Functionality.
+		#92 Manage filters for short customers by most orders.
+		- Reported bugs have been documented in the live sheet.
+
+@all, I'm leaving for the day.
+
+(4) Need to inform about the demo session on the Cucumber BDD Framework. (Approx. 2:30 hours)
+	
+	(1) Deevo-App	(Approx. 2:00 hours)
+    - According to the client, there are three new CR points that need testing.
+    - Need to follow up on identified bugs sheet and update the status of each bug accordingly.
+
+(3) Water2Water (Approx. 2:00 hours)
+	- Perform browser compatibility testing on the remaining pages.
+	- Need to follow up on identified bugs sheet and update the status of each bug accordingly.
+(4) Axiom Election	(Approx. 1:30 hours) 
+	- Performed re-testing as well as overall regression testing.
+	- Need to follow up on identified bugs sheet and update the status of each bug accordingly.
+	
+
+
+(1) Deevo-App (1:00 hours)
+- I understand that there are three new CR points.
+- Attended Scrum and internal discussions with the team.
+
+(2)  Axiom Election (2:30 hours)
+- Perform browser compatibility and responsive testing on the entire website.
+- Reported bugs have been documented in the live sheet.
+- I have tested it on the McA Safari browser.
+- Tested on Mozilla Firefox browsers.
+- Tested on Google Chrome browser.
+- I have conducted responsive testing on Android, iOS, and iPad devices, considering landscape and portrait modes.
+
+(3) Water2Water (5:00 hours)
+- I have performed browser compatibility testing on the entire website.
+- Reported bugs have been documented in the live sheet.
+- I need to test it on Mac Safari.
+- Internal discussions with the developer.
+
+
+(3) Book it Here  (Approx. 3:00 hours)
+- Performed overall regression testing and integration testing
+- Followed up on the bugs sheet
+
+@Payal Task Update:
+
+(1) Deevo-App  (Approx. 2:00 hours)
+-  According to the client, there are three new CR points for testing.
+
+
+(2) Book it Here  (Approx. 4:30 hours)
+- Performed overall regression testing and integration testing.
+- Followed up on the bugs sheet.
+- Worked on testing resolved bugs.
+- Performed bulk entry using an Excel sheet.
+- Worked on the "Add Sessions" module.
+- Worked on the "user list" and "pendingUsers" modules.
+- I have worked on the Department and Companies modules, covering all actions.
+
+@all , I'm leaving for the day.
+
+@Payal Task Update:
+
+Deevo-App (3:00 hours)
+- Testing According to Assigned tasks and tickets.
+- #67 Frontend: Analytics module API integrations
+  I have performed the Square and Uber-Eats POS server integration and ensured the entire data of the customers, categories, items, and orders is accurate.
+- #72 Backend: Analytics API development
+  I have worked on the Product, Product Analytics, and Product Compression APIs.
+- #1 Backend: Build APIs to manage 2FA
+  I have performed the test using my own dummy mobile number, and the default status 2FA verification response is true.
+- Attended scrum meetings and internal team discussions.
+
+Book it Here (1:30 hours)
+- Performed overall regression testing and integration testing for the Admin session module and its respective roles of HOD and users.
+- Followed up on the bugs sheet.
+
+Axiom Election (1:00 hours)
+- I had a discussion with a team member.
+- As the team discusses with the client, I listen to his call recording.
+- Reviewed the sprint planning sheet.
+
+BDD - Cucumber Framework (3:00 hours)
+- Creation of the Index for whole topics Contents.
+  Behavior Driven Development.
+  Cucumber installation
+  What is Cucumer.
+  Feature file.
+  Step Definition of cucumber.
+  Test Runner.
+  Framework Integration
+  What is Gherkins.
+  Cucumber reports
+- Preparation for demo session.
+
+@all , I'm leaving for the day.
+
+To Do - 8 Hours >> Deevo App & Book it Here
+(1) Deevo-App
+- Testing According to Assigned tasks and tickets. (if any)
+(2) Book it Here
+ - Performed overall regression testing and integration testing for each role and its respective modules.
+(3) BDD - Cucumber Framework
+- Preparation for demo session
+
+
+
+
+Deevo-App (Approx. 4:00 hours)
+- I have worked on the feedback provided by the client.
+- Performed regression testing based on earlier bugs found and updated their status accordingly on our internal sheet.
+- Followed up on the bugs sheet.
+
+
+- Had a few feedback discussions with the frontend team.
+- Attended scrum meetings with the team.
+
+Book it Here(Approx. 02:30 hours)
+
+- Performed overall regression testing and integration testing for each role and its respective modules.
+- I have worked on testing resolved bugs.
+- I have perfome the bulk entry using an Excel sheet.
+- I have worked on the "Add Sessions" module.
+
+Demo session : (Approx. 02:00 hours) 
+- BDD - Cucumber Framework.
+- Creation of the PPT as well as preparation for the demo session.
+- create a PPT document accordingly.
+
+
+The circle should not disrupt if more text.
+https://app.screencast.com/W5D3YuKBT7SRg
+
+
+
+
+(1) Deevo-App (3:00 hours)
+- I have worked according to the client’s concerns to provide feedback and review.
+- I have created a new sheet for Sprint 4 feedback, add each feedback provided by her.
+- I have performed tests on the bugs found earlier and updated their status accordingly.
+- We have attended a Scrum meeting and clarified the entire feedback sheet.
+ 
+(2) Book it Here  (4:00 hours)
+- I have performed overall functionality testing for each role and module.
+- I have reported bugs and added them to the live sheet.
+- Performed regression testing and integration testing on the session with various roles like HOD, admin, and user.
+- I have followed up on the bug sheet, updating their status based on errors found during previous testing.
+
+
+(3) Impact of Artificial Intelligence on Software Testing. (1:30 hours)
+- AI based systems work.
+- The Evolution of Software Testing.
+- Automated Test Case Generation.
+- Intelligent Defect Prediction.
+- Test Optimization and Prioritization.
+- Intelligent Bug Triage and Reporting.
+
+Today's Plan:
+
+(1) Deevo-App  (2:30 hours) 
+- I have work on the assigned tasks.
+- The Reported bugs have been added to the live sheet.
+- I have Perform Overall brand creation and integrate the app with UberEats.
+
+(2) Book it Here (6:00 hours) 
+- I have performed overall functionality for each role and module.
+- I have addressed the reported bugs and added them to the live sheet.
+- I have followed up on the bug sheet, updating statuses based on errors found during previous testing.
+- Perform integration testing for each role and module.
+- I have worked on testing resolved bugs.
+- I have performed regression testing.
+- I have tested the bulk entry using an Excel sheet.
+- I have worked on the 'user list' and 'pendingUsers' modules.
+- Performed functionality testing for Admin roles.
+- I have worked on the "Add Sessions" module.
+
+
+(1) Deevo-App  (4:30 hours) 
+- Followed up on bugs and updated them accordingly.
+- Performed the calculation part on the production server.
+- I have integrated Square-Up as well as UberEats POS app on the production server.
+- I have calculated Average Order and Growth on the dashboard, as well as Orders and Customers.
+- I have calculated Customer Purchase History in the customers module.
+- Worked on analytics module calculations including Overview, Product Performance, Product Trend, and Product Comparison.
+- Conducted Overall Regression Testing on both admin and brand roles.
+- Reported bugs have been added to the live sheet.
+- Followed up on bugs and updated them accordingly.
+
+
+(2) Book it Here - (4:00 hours) 
+-  I have performed overall functionality as well as regression testing for each role and each module.
+-  I have worked on the reported bugs mentioned and have added them to the live sheet.
+-  I have followed up on the bug sheet based on the errors found during previous testing and update status accordingly.
+-  Perform integration testing on each roles and each modules.
+
+- I have performed the Square POS and Uber Eats subscriptions, including removing the subscription and displaying it according to the active and inactive flags.
+- Testing According to Assigned tasks and tickets.
+- Need to test the 'Ready for QA' tickets below to move them to the 'Done' column.
+  #61 Backend : Uber Eats Dynamic Integration
+- Bugs verified and update sheet accordingly.
+
+- We had internal discussions with the backend and team members regarding the board tickets and updated them accordingly.
+
+- Try to understand the following ticket.
+  #72 Backend: Analytics API development.
+  
+- I have performed as per the earlier bugs found during regression testing.
+
+- Internal discussions with the Nikulash.
+- I have worked on functionality testing for the dashboard, Session List, and User's Bulk Data Entry modules.
+
+
+Today's Plan:
+
+
+
+(1) Deevo-App  (Approx. 8:30 hours) 
+- I have attended a Scrum Meeting.
+- We have Internal discussions with the Back end and backend and frontend team members regarding the Board Tickets.
+- In the system, the local server is set up.
+
+- Need to test the 'Ready for QA' tickets below to move them to the 'Done' column.   
+#07 - Frontend: Brand Management by Admin.
+I have performed overall functionality testing and reported bugs for this particular ticket.
+#13 - Frontend: POS set up for Uber Eats.
+I have worked POS integration systems for SquarePos and Uber Eats throughout their accounts.
+#17 - Frontend: Customer Management UI design.
+I have performed UI testing for the Customer Management module and responsive testing.
+#62 - Frontend: Analytics module UI development.
+I have performed UI testing for the Analytics module and responsive testing as provided resolution by Sanjay.
+#29 - Admin - Brand Create page -Incorrect Selection Lack of Appropriate Validation Messages.
+I have verified the ticket and conducted overall brand functionality regression testing.
+
+ all Leaving for the day.
+ 
+(2) Book it Here (Approx. 3:00 hours) 
+- Overall functionality testing for each role and each modules.
+- Mentioned reported bugs have been add to the live sheet..
+- Followed up on bugs and update them accordingly.
+(3) R&D : Will Artificial intelligence take over software testing (Research on)
+
+Payal Task Update:
+
+(1) Deevo-App  (8:30 hours) 
+- I have Attend Scrum Meeting.
+- We have Internal discussion with Back end and backend and frontend team members regarding the Board Tickets.
+- Need to test the 'Ready for QA' tickets below to move them to the 'Done' column.
+- As per below tickets varied bugs sheet.
+- Set up a local server in my system and update it accordingly.
+- In my system local server set-Up and update it  accordingly.
+  #07 - Frontend: Brand Management by Admin
+  I have performed overall functionality testing as well as reported bugs for this particular ticket.
+  #13 - Frontend: POS set up for uber-Eats
+  I have worked POS Integrations system for Square POS and uber eats throughout threr account.
+  #17 - Frontend: Customer Management UI design
+  I have worked on POS integration systems for Square POS and Uber Eats across their accounts.
+  #62 - Frontend: Analytics module UI development
+  I have performed UI testing for the Analytics module, as well as responsive testing as provided resolution by Sanjay.
+  #29 - Admin - Brand Create page -Incorrect Selection Lack of Appropriate Validation Messages
+  I have verified the ticket and conducted overall brand functionality regression testing.
+- As per the tickets below, the sheet will be updated 	.
+
+ all Leaving for the day.
+
+The count of customers is being displayed incorrectly on the interface.
+
+
+(1)  Resibrands: (8:40 hours)
+
+Perform browser compatibility and responsive testing on the entire website.
+Reported bugs have been documented in the live sheet.
+I have tested on McA Safari browser.
+Tested on Mozilla Firefox browsers.
+Tested on Google Chrome browser.
+Conducted responsive testing on Android, iOS, and iPad devices, considering both landscape and portrait modes.
+
+
+- I understand which devices I need to test on.
+- Internal discussion with Ramu regarding the project.
+- I have created spreadsheets to track bugs.
+- Conduct browser compatibility testing on the home pages.
+
+
+
+Meetng by payal 05-07-2024
+
+Need to take more responsiblity.
+overall work and taking behavurs updated.
+alrews meke the dence deal profesonal
+is work time any friend relection accepted.
+need to impproved englisk and overall commnicaln skiils
+do not skip anyting from our end.
+if any critical issues then make set the infome team with prority asap they fix and we need to vafirfied with thes implected area.
+if any project then need to go thouree of end user sprective senarios
+
+@all Leaving for the day.
+
+
+Resibrands
+- Perform browser compatibility as well as responsive testing on the entire website.
+- Mentioned and reported bugs have been added to the live sheet.
+
+Hello Team 
+
+Once you done for last year record as per therd party api responce data on the user deshbord for in grid pie chart  with as per Wins/Losses/Outstanding status count and Recently Called
+grid please let me we can testgn with Data base for queries execute  wiht as per client last 5th yrar data requred  
+
+- Perform browser compatibility testing on the entire website
+- I have tested it on the McA Safari browser.
+
+
+Hello, I have completed browser compatibility testing across all browsers and performed responsive testing. However, there are still remaining pages to be tested by suruchi, which I will complete and update on the sheet. 
+
+just one more thing I ask ramu can we perfome if any reming testing the his said us yes 
+
+
+{"apiVersion": "3.1", "apiBuild": "3.1.741", "electionDate": "2024-07-05", "timestamp": "2024-07-05T10:32:22.177398Z", "races": [], "nextrequest": "https://api.ap.org/v3/elections/2024-07-05?format=json&national=true&minDateTime=2024-07-05T10%3A32%3A22.177133Z"}
+{"apiVersion": "3.1", "apiBuild": "3.1.741", "electionDate": "2024-07-04", "timestamp": "2024-07-05T10:32:21.391842Z", "races": [], "nextrequest": "https://api.ap.org/v3/elections/2024-07-04?format=json&national=true&minDateTime=2024-07-05T10%3A32%3A21.391589Z"}
+{"apiVersion": "3.1", "apiBuild": "3.1.741", "electionDate": "2024-07-03", "timestamp": "2024-07-05T10:32:20.539015Z", "races": [], "nextrequest": "https://api.ap.org/v3/elections/2024-07-03?format=json&national=true&minDateTime=2024-07-05T10%3A32%3A20.538719Z"}
+
+- Attended the Scrum Meeting and discussed with internal team members.
+- #17 Frontend: Customer Management UI design.
+- I have worked on the entire of Customer Management flow of the UI, as well as functionality testing.
+- #62 Frontend: Analytics module UI development.
+- I have worked on the entire of Analytics  flow of the UI, 
+- #67 Frontend: Analytics module API integrations.
+- Perform entire functionality of Brand user portal.
+- Bugs reported, created, and added to the live sheet.
+- I have performed Recovery 2FA functionality.
+
+(2) Journey Joy App : (4:30 hours)
+- I have performed integration testing for each role.
+- I have worked on on the Agencies and Users dashboard.
+- Internal Team Member Discussion.
+- Bug reports have been created and added to the live spreadsheet.
+- I have worked on integration scenarios for Agency roles.
+- I have worked on coupon code module and tested how to setup coupon code mobile app.
+- I have worked on the mobile image upload dashboard module and tested how to view the mobile images uploaded dashboard on the mobile app.
+- I have worked on the Car dashboard module and tested how to view the car information on the mobile app.
+
+
+(1) Deevo-App : (Approx. 5:00 hours)
+- Attended the Scrum Meeting and discussed with internal team members.
+- I have performed overall regression testing on both the Admin and Brand roles.
+- I have workend on Testing Resolved bugs.
+- Providing overall project as well as complete updates to Payal and Bijal.
+- Bugs have been reported, created, and added to the live sheet.
+- Follow up with each team member regarding the bugs found earlier.
+- I have performed integration testing for each role.
+- I have worked on verifying bugs found in the API and updated the sheet accordingly.
+
+
+(2) Journey Joy App : (Approx. 3:30 hours)
+
+- I have performed overall functionality testing for each role.
+- I have gone through the mobile app to review activities associated with multiple roles.
+
+- Bugs Have  reported, created, and added to the live sheet.
+- I have tested the resolved bugs.
+- 
+
+@all Leaving for the day.
+
+
+@Payal Task Update:
+
+(1) Deevo-App (1:00 hours)
+- Attended the Scrum meeting.
+- Followed up on bugs identified in Azure Board, updating them accordingly.
+
+(2) Book It Here (7:30) 
+	- I have worked on According to Pavan's test, and they found bugs updating them accordingly.
+	- Perform integration testing on each roles and each modules.
+
+- I have worked on the "Add Sessions" module.
+- Bugs have been reported, created, and added to the live sheet.
+
+- As per i have found earlier bugs found tested the resolved bugs update them accordingly.
+- I have performed overall functionality testing for each role and each module.
+
+- I have worked on functionality testing for the sign-up and sign-in modules.
+- I follow up with the team members on the bug sheet regarding the bugs found earlier.
+
+(3) Will AI take over Software Testing! (1:30)
+- Researched different perspectives.
+- Explored the benefits of AI in software testing.
+- Explored the application of AI in automation testing.
+
+
+ @all Leaving for the day.
+
+(3) Book It Here (6:00)
+
+(2) Book It Here : (Approx. 4:30 hours)
+- 22385 Followed up on bugs found earlier and updated them accordingly.
+- Worked on testing resolved bugs.
+
+- Performed overall functionality testing for Admin roles.
+- Reported bugs have been created and added to the live sheet.
+- Worked on the group covering all actions.
+
+Total  27000
+on leave : 4 days.
+
+office cutoff 927 
+leave cutoff 22 days
+- Worked on the Forgot password and Account Register modules.
+- Discussed with Nikulash Vaghela regarding the Bulk Entry and Assign Department to New Users.
+
+(3) Journey Joy App : (Approx. 2:30 hours)
+- I have performed testing Resolved bugs.
+- have worked on mobile App Test.
+
+- Followed up on bugs found earlier and updated them accordingly.
+- Discussed with Shyam Patel regarding the mobie application fews concern.
+
+(1) Deevo-App :  (3:00 hours)
+- Attended Scrum Meeting.
+- Followed up on bugs found earlier and updated them accordingly.
+- Had an internal discussion with Ronak and Jayesh.
+- Conducted functionality testing for Brand creation form.
+- Reported bugs have been created and added to the live sheet.
+
+(2) Book It Here : (Approx. 3:30 hours)
+- I have performed integration testing for each role to verify the sent requests with role rights.
+- Reported bugs have been added to the sheet.
+- Performed verification of resolved bugs.
+- I have worked on functionality testing for the User module and reported bugs.
+- Followed up on bugs found earlier and updated them accordingly.
+
+(3) Journey Joy App : (Approx. 2:00 hours)
+- I have worked on testing resolved bugs.
+- I have worked on functionality testing for Agency roles modules and reported bugs.
+- Performed mobile application testing.
+- Followed up on bugs found earlier and updated them accordingly.
+
+@all Leaving for the day.
+
+Today's Plan:
+
+(1) Deevo-App :  (1:00 hour)
+- Attend the Scrum meeting and also attend the client's demo.
+- Followed up on bugs found earlier and updated them accordingly.
+(2) Journey Joy App : (1:30 hours)
+- I have worked on testing and verifying bugs.
+- Performed mobile app testing.
+- Followed up on the bug sheet, updating the status of earlier found bugs accordingly.
+(3) Book It Here : (6:00 hours)
+- I have performed overall functionality testing for Admin roles.
+- I have worked on integration testing for each role.
+- Reported bugs have been created and added to the live sheet.
+- I have worked on the Add session module.
+- I have worked on the Session List module, including searching, sorting, filtering, as well as the list of actions.
+- I have worked on the Users module, including the creation of users and bulk entry with a lot of data.
+- I have worked on the Department and Companies modules, covering all actions.
+- Perform mail lead dashboard pages as well whole detail verifying to the eche roles as well modules
+
+1. Project Name       : 
+    Task              :                              
+    Status            : Continue
+    Time Spent        : 8:30 Hours
+
+coulm add 
+
+(1) Deevo-App : (1:30 hours)
+- Attend the Scrum meeting.
+- I have worked on creating the brand from clarified bugs with the developer.
+- Internal meeting with Bijal was discussed.
+
+(3) Journey Joy App : (Approx. 3:30 hours)
+- I have worked on verifying the resolved bugs of the welcome dashboard.
+- I have worked on overall functionality testing for the Agency Details, Coupon Code, Cars, Drivers, and Trip modules.
+- I Have worked on identifying common bugs for each role.
+- I have set up the new, latest updated build for the mobile app tests to ensure verification of resolved bugs.
+- The reported bugs have been created and added to the live sheet.
+- I have worked on integration testing for each role.
+- I have performed regression testing for each role separately.
+
+(2) Book It Here : (3:30 hours)
+- I have worked on overall functionality testing.
+- Performed functionality testing for Admin roles.
+- Conducted integration testing for each role.
+
+- I have worked on the 'userlist' and 'pendingUsers' modules.
+- Reported bugs have been created and added to the live sheet.
+
+
+Deevo-App - (4:00 hour)
+- Attend Scrum Meeting.
+- Test according to the provided live server.
+- Perform Admin role testing by logging into the entire Flow of Brand actions.
+- worked on testing the entire process of Brand creation.
+- worked on changing the password for Brand roles.
+- worked on the Brand Business Information screen.
+- worked on setting up two-factor authentication.
+
+JourneyJoy App - (2:30 hour)
+- Internal Team Member Discussion.
+- I have set up and installed the mobile application, creating new user and driver roles from scratch.
+- Tested the login page and profile screen of the mobile application.
+- Performed image uploading on the mobile dashboard.
+- I have worked on the Add Car CRUD operation.
+- Bug reports have been created and added to the live spreadsheet.
+
+Book It Here - (2:00 hour)
+- Go through all roles to understand the overall functionality.
+- As per create Verified login credentials for each role.
+- Perform login pages password reset functionality.
+- I have worked Add session CURD operation.
+
+(1) Deevo-App (00:30 Mni)
+- Attend Scrum Meeting.
+
+(3) Hokkaido-Holiday-Homes (5:00 hour)
+- I have worked on completed testing for browser compatibility and responsiveness for the entire website.
+- This includes testing on various web browsers, including Microsoft Edge, and Safari.
+- I have thoroughly tested the website in both portrait and landscape modes across all resolutions.
+- Bugs reporting has been created and added to the live spreadsheet.
+
+
+This includes testing on various Web Browsers, Including Google Chrome and Mozilla Firefox .
+
+(3) ENTR App (3:00 hours)
+- According to the topic below, learning has been completed, and the document has been created and submitted to our live folder on the drive.
+- Feature File in Cucumber Testing.
+- I have mantion step of how we can created Feature file on cucumber BDD Framework
+- How to create Feature File.
+- What is tag in Cucumber testing.
+- Gherkin Language.
+
+(3) Hokkaido-Holiday-Homes (Approx. 1:00 hour)
+- I have worked on browser compatibility for the Home page website.
+- I have performed testing on web browsers such as Chrome.
+
+- I have worked on completed testing for browser compatibility and responsiveness for the entire website.
+
+- Execute scripts through the Cucumber BDD framework.
+- Creating Maven project with Cucumber Rest Assured Dependencies.
+- I have performed multiple test scenarios and used tags in the feature file, which we also use in our test runner file.
+- Create my own report summary using the Cucumber BDD approach.
+
+- Implementing Real code in Step Definition files with reusable components.
+- Creating Additional Scenarios in Framework to reuse existing Step Definitions.
+
+
+(1) Deevo-App (4:00 hours)
+- Attend Scrum Meeting.
+- #17 Frontend: Customer Management UI design.
+- I have worked on the dashboard according to the Figma wireframe and have also added bugs to the sheet.
+- I have performed the entire customer flow, from searching filtering the list page to the detail page.
+- As of now, I have performed responsive testing on the ready screen with the resolution provided: -1920x1080, -1440x1080, and -1280x720.
+- Perform API testing on both services for product analysis.
+- I have worked on the to test Square Pos and UberEats services, as well as on the Aggregates Product Analysis.
+- I have discussed with Palak regarding the brand and subscription service. 
+
+(2) ENTR APP  (4:30 hours)
+- Execute scripts through the Cucumber BDD framework.
+- Creating Maven project with Cucumber Rest Assured Dependencies.
+- I have performed multiple test scenarios and used tags in the feature file, which we also use in our test runner file.
+- Create my own report summary using the Cucumber BDD approach.
+- Implementing Real code in Step Definition files with reusable components.
+- Creating Additional Scenarios in Framework to reuse existing Step Definitions 
+ 
+ 
+ 
+Today's Plan:
+
+(1) Deevo-App  (Approx. 3:00 hours)
+Need to test Below Tickets and Meeting
+- Attend Scrum Meeting. (Approx. 00:30 Mni)
+- #17 Frontend: Customer Management UI design (Test customer flow) (Approx. 1:00 hour)
+- Perform API testing on both services for product analysis.(Approx. 1:30 hour)
+(2) ENTR APP (Approx. 5:30 hours) 
+- Execute scripts through the Cucumber BDD framework.
+- As per running multiple test scenarios to correct the response body.
+
+(2) ENTR APP (Approx. 7:30 hours)
+- Execute scripts through the Cucumber BDD framework.
+- Running multiple test scenarios using a single script.
+- I have worked on payload with multiple data and multiple scenarios.
+- Execute the login script using the cucumber feature file.
+#Resolve the Below error and warning messages:	
+- Scenario: Authorized user is able to Add and Remove a book. # src/test/resources/Featurefile/customers.feature:8
+- java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.reflection.ReflectionCache
+- Java.lang.RuntimeException: java.lang.NullPointerException.
+
+
+- Implemented of Test Scripts for Positive and Negative Scenarios.
+- I have implemented Cucumber with the Rest Assured framework using Java.
+- I have worked on designing and building a framework for API Automation testing.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+- Try to understand the major specifications required for Rest Assured in the Cucumber BDD API Framework Feature files.
+- I have created a Maven project with Cucumber and Rest Assured with added dependencies, etc.
+- Worked on creating and building Step-Definition file, then Feature-Test file, and finally, the Test-Runner file, as well as configuring all the files accordingly.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+#Resolve the following error and warning messages:
+1. Cannot find class in classpath: CucumberTesting.APILogin
+2. The glue path contained invalid identifiers StepDefinition/APILogin.java
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+#Resolve the following error and warning messages:
+3. Cannot find the tags names tags="@valid-Credentials or @Invalid-Credentials or @Regression-Test or @Re-Test or @Smoke-Test @sanity-Test"
+4. The attribute format is undefined for the annotation type CucumberOptions
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+#Resolve the following error and warning messages:
+5. WARNING: You are using the deprecated Main class. Please use io.cucumber.core.cli.Main
+- Understand the required specifications for the Test Runner, including features, glue, tags, and plugins, for Cucumber Feature files used in Rest Assured API testing.
+
+
+
+
+
+- Implemented of Test Scripts for Positive and Negative Scenarios.
+- I have implemented Cucumber with the Rest Assured framework using Java.
+- I have worked on designing and building a framework for API Automation testing.
+- Try to understand the major specifications required for Rest Assured in the Cucumber BDD API Framework Feature files.
+- I have created a Maven project with Cucumber and Rest Assured with added dependencies, etc.
+- Worked on creating and building Step-Definition file, then Feature-Test file, and finally, the Test-Runner file, as well as configuring all the files accordingly.
+- Understand the required specifications for the Test Runner, including features, glue, tags, and plugins, for Cucumber Feature files used in Rest Assured API testing.
+#Resolve the following error and warning messages:
+1. Cannot find class in classpath: CucumberTesting.APILogin
+2. The glue path contained invalid identifiers StepDefinition/APILogin.java
+3. Cannot find the tags names tags="@valid-Credentials or @Invalid-Credentials or @Regression-Test or @Re-Test or @Smoke-Test @sanity-Test"
+4. The attribute format is undefined for the annotation type CucumberOptions
+5. WARNING: You are using the deprecated Main class. Please use io.cucumber.core.cli.Main
+
+
+Mail Topic Name : Cucumber BDD framework with Rest Assured API Testing.
+
+I would like to inform you that, as per mentioned below topics, I need to start R&D first, After that, I will begin practicing on the configuration of creating and designing a framework from scratch using the BDD approach with Cucumber, Selenium Java programming languages.
+
+Based on the topics listed below, I need to create a document and submit it to our live drive's practice folder.
+
+
+
+Approx Time : 30 April (If I have to provide work on tasks throughout the whole day, there might be a few days' delay, but I will do my best to complete them as soon as possible and provide updates.)
+
+Here, I have mentioned two main topics: Theoretical and Practical.
+
+Theoretical parts 
+
+What is Cucumber Testing
+What is BDD?
+Which language is used in cucumber?
+Basic Terms of Cucumber
+How does Cucumber Testing Works?
+Software tools supported by Cucumber
+Advantages of Cucumber Tool
+Difference between Cucumber and Selenium
+Behavior Driven Development
+Feature File in Cucumber Testing
+How to create Feature File
+What is tag in Cucumber testing?
+Gherkin Language
+What is a feature in cucumber testing?
+What is Scenario in Cucumber Testing?
+Install Cucumber Eclipse Plugin
+What is the Data Table in Cucumber?
+How to create Selenium Maven Project in Eclipse?
+What is Hook in Cucumber?
+
+Practical parts
+
+Cucumber BDD API Framework Development from Scratch - 1
+1.  Creating Maven project with Cucumber Rest Assured Dependencies.
+2.  Building Cucumber Feature file for Rest Assured API Tests.
+3.  Building Test Runner and Step Definition files for Add Place API Feature Test.
+4.  Implementing Real code in Step Definition files with reusable components.
+5.  Running the Test in Cucumber Standards with necessary Configuration changes.
+6.  Building Utility Files and Implement Logging feature in Framework.
+7.  Implement Mechanism to drive Global property values from Properties file.
+8.  Data Driven Testing Mechanism for API Tests using Cucumber example feature.
+9.  Parameterize API  Test with multiple Data sets using Cucumber Framework features.
+10. What are Enum classes? How Framework can utilize the Enum concepts.
+11. Removing Hardcoded resource details with Enum class Methods.
+12. Build End to End Testcase with Add and Delete Place in Framework.
+12. Creating Additional Scenarios in Framework to reuse existing Step Definitions.
+13. Importance of Cucumber Hooks in setting up Preconditions for API Tests.
+14. Optimizing the Framework Tests with all necessary validations.
+15. Running the Complete Framework using Maven commands.
+16. Generate Excellent Cucumber HTML reporting with additional Plugins
+17. Introduction to Jenkins CI tool.
+18. Integrating the API Framework into Jenkins and triggering with New job setup.
+19. Setting up Parameterized Jenkin Job for API Framework with multiple Tags.

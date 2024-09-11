@@ -1,0 +1,654 @@
+
+	
+
+<span data-purpose="item-title">104. </span>
+
+To Do - 8 Hours>> ENTR GROUP API Automation
+
+To Do - 8 Hours>> ENTR GROUP API Automation
+- Handling Dynamic JSON Payloads with Parameterization
+- Serialization of Input Payload using Google Maps API Example
+- Cucumber BDD API Framework Development from Scratch
+- Learn Graph-QL from Scratch and Testing with Rest Assured
+
+It is used for:
+
+Tracking code changes
+Tracking who made changes
+Coding collaboration
+
+
+ updates the remote repository with any commits made locally to a branch
+ 
+ What is a git push command?
+Git Push | Atlassian Git Tutorial
+The git push command is used to upload local repository content to a remote repository.
+
+- Cucumber BDD API Framework Development.
+- Building Cucumber Feature file for Rest Assured API Tests.
+- Enum classes? How Framework can utilize the Enum concepts.
+- Creating Additional Scenarios in Framework.
+
+
+The git add command adds a change in the working directory to the staging area.
+
+
+
+Verify that the search functionality can generate correct results for valid keywords, but not for searches invalid keywords data"
+
+
+
+cucumber project creation template
+Understanding cucumber dependencies
+Understand the Terminologies of Automation
+Mapping step defination to feature file
+
+ENTR GROUP API Automation >> Udemy Courses Watching and Implementation. 
+-Handling OAuth 2.0 Authorization Grant type - Client Credentials.
+  Introduction to OAuth 2.0 Client credentials Grant type.
+  Practial example on OAuth 2.0 with its contract details for testing.
+  Postman testing for the OAuth related API's and generating response.
+  Rest Assured automation script for OAuth end to end API's test.
+		
+-End to End ecommerce API example with Automation Concepts.
+ Understand Ecommerce API Contract and build manual API's in Postman.
+ Create Rest Assured automation for Login Call to generate Auth token.
+ Automate Post calls which has form parameters and attachments using Rest Assured.
+ Implement POJO Classes to build nested Json for Create Order for Product added.
+ Script implementation with Delete Product using Path parameters & HTTPS relaxed.
+ 
+
+
+
+(1) New Classic Homes:
+	Testing Resolved Bugs.
+
+
+(2) ENTR GROUP API Automation >> Udemy Courses Watching and Implementation. 
+     - Diving in Depth-Automating REST API's.
+		Understanding Structure of Complex Nested Json and its array notations
+		Json used in this Section with Queries to solve
+		Retrieving the Json Array Size and its elements using JsonPath
+		Iterating over every element of Json Array and accessing elements in it
+		Retrieving Json Nodes on Condition logic using JsonPath
+		Real Time example to solve Business logic through Json response
+     - Handling Dynamic JSON Payloads with Parameterization.
+		Why Dynamic Json payloads are important to understand
+		Rest Assured Test for Library API Add Book http method
+		Sending parameters to payload from Test
+		Understanding TestNg Data provider for parameterization
+		Example on Parameterization of API Tests with multiple data sets
+		How to handle with static json payloads
+
+
+
+
+
+How to pull push your code on GitHub repository
+
+$ git init
+$ git add .
+$ git commit -m "ppt wala day"
+$ git branch -M main
+$ git push -u origin main
+
+
+error
+How To Fix java.lang.NoSuchMethodError:org.junit
+
+
+Authentication and Authorization for API
+Rest/ SOAM API Diffrence
+Exaplein real life example
+If any thing dependent on any thing then explain that as well
+Add explaination besides the code, so everone can understand
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Why is automated API testing useful?
+	Automated testing is useful in the long run as it helps to maximize the test coverage of the applications in a shorter period of time meaning it helps to test large test sets very easily and quickly. It enables parallel execution and helps to reduce human-generated errors in testing. It saves the time required to test applications thereby saving the overall cost.
+
+What is Payload?
+	Payload is the most common term used in the case of REST APIs. It refers to the actual data sent to the server in the API request in different formats like JSON, XML etc.
+
+What are the major blockers or challenges faced while performing API testing?
+	Proper Parameter Selection
+	Proper Parameter Combination
+	Knowing which API needs to be called in what sequence
+	Proper knowledge of output verification
+	Knowing what are the proper input values that needs to be provided to the API inputs.
+
+
+Which protocol is used by RESTful Web services?
+	RESTful web services make use of HTTP protocol as a medium of communication between client and server.
+	
+How we send data in post method in API Automation?
+	
+How do you verify the response status code in Rest Assured?
+
+What is the difference between given() and when() in Rest Assured?
+How many types of Authentication are there in POSTMAN/Rest-Assured?
+what are common protocols used in API testing?
+	Many protocols are now available to be used in API testing, such as JMS, REST, HTTP, UDDI and SOAP.
+	
+What is the test environment of API?
+
+What must be checked when performing API testing?
+
+
+What are the major challenges faced in API testing?
+Why is API testing considered as the most suitable form for Automation testing.
+
+What is REST?
+REST (Representational State Transfer) is an architectural style for developing web services that exploit the ubiquity of HTTP protocol and uses the HTTP method to define actions. It revolves around resources where every component is a resource that can be accessed through a shared interface using standard HTTP methods.          
+
+In REST architecture, a REST Server provides access to resources and REST client accesses and makes these resources available. Here, each resource is identified by URIs or global IDs, and REST uses multiple ways to represent a resource, such as text, JSON, and XML. XML and JSON are nowadays the most popular representations of resources.
+
+
+
+
+
+
+protocols 
+
+
+
+
+
+
+
+(1) Why is automated API testing useful?
+	- Automated testing is useful in the long run as it helps to maximize the test coverage of the applications in a shorter period of time.
+	- It parallel execution and helps to reduce human-generated errors in testing.
+	- It saves the time required to test applications, saving the overall cost.
+
+(2) Which layer API testing is performed?
+	- Business layer.
+
+(3) what are common protocols used in API testing?
+	- HTTP - Hypertext Transfer Protocol
+	- REST - Representational State Transfer
+	- SOAP - Simple Object Access Protocol
+	- JMS  -  Java Message Service
+
+(4) How can we access any variables in Postman tool?
+	- We can access a Postman variable by entering the variable name as {{var}} 
+	
+(5) What is a Postman Collection?
+	- A Postman Collection lets us group individual requests together. Simply it allows us to organize the requests into folders.
+ 
+(6) What API information is exposed in Web Developer tools.
+	- Request headers, Response body, and Response cookies.
+
+(7) What validations are done while performing API Testing?
+	Status code, JSON resource, Error messages, Header, Response time.
+ 
+(8) How do you perform API testing?
+	- We perform API testing by using postman tool. We get the URI and JSON Payload from dev team and also get the Authentication details (User name and Pwd) from the dev team then;
+	we do modification in the payload based on our test cases & check the response accordingly. I do tests for REST APIs.
+
+(9) What are the major blockers or challenges faced while performing API testing?
+	- Proper Parameter Selection
+	- Proper Parameter Combination
+	- Knowing which API needs to be called in what sequence
+	- Proper knowledge of output verification
+	- Knowing what are the proper input values that needs to be provided to the API inputs.
+
+(10) What are the differences between API Testing and UI Testing?
+	- UI (User Interface) testing is to test the graphical interface part of the application. Its main focus is to test the look and feel of an application. On the other hand,
+	API testing enables communication between two different software systems. Its main focus is on the business layer of the application.
+	
+(11)  How to get data by ID in the postman tool
+	 - {{url}}/api/Request/Details/49
+
+
+(12) How we send data in post method in API Automation using HashMap or JSONObject.
+
+		HashMap data = new HashMap(); // Object
+		data.put("name", "Vivek");
+		data.put("job", "Software Engineer");
+		given() // prerequisite
+			.contentType("application.json").body(data)
+		.when().post("https://reqres.in/api/users")
+		.then()
+			.statusCode(201)
+			.header("Content-Type", "application/json; charset=utf-8")
+			.log().all();
+			
+			
+		JSONObject data = new JSONObject();
+		data.put("name", "Vivek");
+		data.put("Job", "Developer");
+		given() // Pre-requisite
+			.contentType("application/json").body(data.toString()) // convert json to string
+		.when() // request body
+			.post("https://reqres.in/api/users")
+		.then() // Validation
+			.statusCode(201) // Status code
+			.header("Content-Type", "application/json; charset=utf-8") // Header Validatio
+			.log().all(); // getting all data from body. (header,cookies and response body)
+
+
+(13) How do you verify the response status code in Rest Assured?
+	 .statusCode(201) /
+	 
+(14) What is the difference between given() and when() in Rest Assured?
+	 - given() is used to set up the request
+	 - while when() is used to send the request. 
+	 
+	 - given() allows you to specify the request method, headers, cookies, and other details.
+	 - while when() allows you to send the request and get the response
+	 
+(15) How many types of Authentication are there in POSTMAN/ Rest-Assured?
+	 - basic Auth, OAuth 1.0 and OAuth 2.0 , Digest Auth, Bearer Token,
+	 
+(16) What is bearer token expiry time?
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+81. Importance of Maven in Framework development
+
+Section 16: Cucumber BDD API Framework Development from Scratch - 1
+
+Section 15: Maven and Cucumber Basics (SKIP IF YOU ALREADY KNOW BASICS)
+
+- Framework design using a Data driven.
+- I have created and fremwork design and try to understand Entire directory folder structure on it.
+- Executed the test script using Excel Integration with Rest Assured Test.
+- I have performed using Data Driven Test Data
+- Performed Retrieving Data from Excel based on condition.
+- I have Performed Excel Utility class for Read and Write a Test Data.
+- Presentation on a demo session: 
+   Validations are done while performing API Testing
+   Name of most commonly used HTTP Methos
+.
+
+
+
+C:\Users\baps\AppData\Local\Android\Sdk
+
+C:\Program Files\nodejs\node_modules\npm\bin
+
+Low Disk Space
+Less than 1 MiB is left on the system directory partition ('')
+
+C:\Users\baps\AppData\Local\Android\Sdk
+
+
+To Do - 8 Hours>> ENTR GROUP API Automation
+
+- API Automation using the Rest Assured framework.
+- Framework design using a Data driven.
+- I have created and fremwork design and try to understand Entire directory folder structure on it.
+- Executed the test script using Excel Integration with Rest Assured Test.
+- I have performed using Data Driven Test Data
+- Performed Retrieving Data from Excel based on condition.
+- I have Performed Excel Utility class for Read and Write a Test Data.
+- Presentation on a demo session: 
+   Validations are done while performing API Testing
+   Name of most commonly used HTTP Methos
+
+
+
+NAME SOME OF THE MOST COMMONLY USED HTTP METHODS.
+- 
+  
+  
+	/*	[1] Smoke Testing:
+		- When we Receive build any document from developer then we need to test build ready for the testing or check Major functionality it called smoke testing.
+		- In smoke testing, the entire system is verified from end to end.
+		- Smoke testing is done on initial builds, The software build may be either stable or unstable during smoke testing.
+		- In short, a smoke testing is done in a development atmosphere to make sure that the build meets the requirement.
+		- Smoke testing helps in uncovering problems early.
+
+
+		[2] Sanity Testing: 
+		- Sanity test is the subset of regression testing. it ensures that bug fixes, newly added functionality or any other code change doesn’t affect the stable software, build other functionality or introduce any type of bug issue. It also evaluates the software and ensures whether it’s ready for the next level of testing or not.
+		- Planned when there is not enough time for in-depth testing
+		- Sanity testing is a subset of regression testing done after smoke testing. 
+		- Testers perform sanity testing after the smoke testing to ensure the software works correctly after code changes, bug fixes, or new functionality is added. 
+		- Relatively stable when sanity testing is performed.
+		- One can conduct Sanity testing only after finding the defect.
+		
+		
+		[3] Re-Testing:
+		- Suppose a tester has identified a defect in the login form, where the login button was not functioning correctly. The tester reported this issue to the development team, and they fixed the issue by updating the code. Now, the tester needs to perform retesting to ensure that the issue has been fixed. In this case, the tester will execute the same test cases that were executed previously to verify that the login button is functioning correctly.
+		
+		
+		[4] Regression Testing:
+		- Suppose the development team has added some new features to the web application, such as a new profile page and a dashboard. Before releasing these new features to the end-users, the tester needs to perform regression testing to ensure that the existing functionality of the system has not been affected by the new changes. In this case, the tester will execute all the previously executed test cases, including the login form, to ensure that the login functionality is still working correctly after the new changes have been made.
+		
+		* Levels of Testing*
+		
+		
+		[5] Unit Testing:
+		 - Unit testing is testing the smallest testable unit of an application.
+		 - It is done during the coding phase by the developers.
+		 - To perform unit testing, a developer writes a piece of code (unit tests) to verify the code to be tested (unit) is correct.
+		 - This testing is performed using the white box testing method.
+		 - Unit testing is also known as the first level of testing.
+		 
+		 #Example:
+			The above function takes two numbers as input and returns their sum. The above unit test “asserts” that 5 + 10 equals 15. 
+
+
+		[6] Integration testing:
+		- This is the second level of software testing, where each component or unit is combined and tested as a whole.
+		- Once all the components or modules are working independently, then we need to check the data flow between the dependent modules is known as integration testing.
+		- The goal behind this testing is to ensure that software or product is working properly when the software unit is combined with other components.
+		
+		#Example:
+			Sample integration test case for the following scenario: The Application has 3 modules say ‘Login’, ‘Mailbox’, and ‘Delete emails’ and each of them is integrated logically.
+			
+			
+		[7] System Testing:
+		 - This testing aims to test the whole system in a different environment and ensure that it meets the specified requirements.+
+		 - System Testing includes testing of a fully integrated software system.
+		 - In system testing, we will go through all the necessary modules of an application test if the end features or the end business works fine, and test the product as a complete system.
+		 
+		 
+		[8] Acceptance Testing:
+		- Acceptance testing is the final level of testing, where the software is evaluated against the business requirements and user needs to ensure that it meets the expectations of the stake holders.
+		- Acceptance testing may be conducted by the end users,(client or customer) or by a dedicated software testing team.
+		
+		
+		[9] Alpha testing:
+		
+		- Alpha testing is conducted in the organization and tested by a representative group of end-users at the developer's side and sometimes by an independent team of testers.
+		- Alpha testing covers both white- and black-box testing techniques.
+		- Effort, Multiple execution cycle.
+		- Alpha testing is simulated or real operational testing at an in-house site. It comes after the unit testing, integration testing, etc. Alpha testing used after all the testing are executed.
+		
+		
+	 	[10] Beta testing:
+	 	- Final testing before releasing application for commercial purpose. It is typically done by end-users or others.
+	 	- Beta testing mainly uses black-box testing techniques.
+	 	- Effort, short time frame.
+	 	
+	 	
+	 	[12] Ad-hoc Testing:
+	 	- Testing performed without planning and documentation – the tester tries to ‘break’ the system by randomly trying the system’s functionality. It is performed by the testing team.
+	 	- Ad-hoc testing is also known as Monkey testing and Gorilla testing.
+	 	
+	 	#Example:
+	 	In Ad-hoc testing, we don't follow the requirement because we randomly check the software. Our need is A?B?C?D, but while performing Ad-hoc testing, the test engineer directly goes to the C and test the application as we can see in the below image:
+		
+		Why do we need to perform Ad-hoc Testing?
+		- When the product release to the market, we go for Ad-hoc testing because the customer never uses the application in sequence/systematically for that sake; we check the application by going for Ad-hoc testing by checking randomly.
+
+		- Checking the application randomly without following any sequence or procedure since the user doesn't know how to use the application, they may use it randomly and find some issues to cover this we do one round of Ad-hoc testing.
+
+
+		[13] Black box Testing
+		- A method of software testing that verifies the functionality of an application without having specific knowledge of the application’s code/internal structure. Tests are based on requirements and functionality. It is performed by QA teams.
+	
+	
+		[14] White box Testing
+		- Testing technique based on knowledge of the internal logic of an application’s code and includes tests like coverage of code statements, branches, paths, conditions. It is performed by software developers. 
+		
+		
+		[15] Gray box Testing 
+		- A combination of Black Box and White Box testing methodologies: testing a piece of software against its specification but using some knowledge of its internal workings. It can be performed by either development or testing teams.
+		- Gray box tester both types knowlages on it somewhare organation worked someone long time 
+
+	 	
+
+		 
+		 
+		*/
+
+
+
+
+
+
+To Do - 8 Hours >>R&D
+- Mobile automation testing using the Appium tool
+- Native App automation for Android
+- Create test cases in the testng framework
+- Web automation on the Ash Brokerage project
+- Prepare Framework for Taxio android application
+- R&D on automation topics 
+
+
+To Do - 8 Hours >>R&D
+- Mobile automation testing using the Appium tool
+- Native App automation for Android
+- Create test cases in the testng framework
+- Web automation on the Ash Brokerage project
+- Prepare Framework for Taxio android application
+- R&D on automation topics 
+
+
+To Do - 8 Hours >>R&D
+- Mobile automation testing using the Appium tool
+- Native App automation for Android
+- Create test cases in the testng framework
+- Web automation on the Ash Brokerage project
+- Prepare Framework for Taxio android application
+- R&D on automation topics 
+
+
+To Do - 8 Hours >>R&D
+- Mobile automation testing using the Appium tool
+- Native App automation for Android
+- Create test cases in the testng framework
+- Web automation on the Ash Brokerage project
+- Prepare Framework for Taxio android application
+
+
+To Do - 8 Hours >>R&D
+- Mobile automation testing using the Appium tool
+- Native App automation for Android
+- Create test cases in the testng framework
+- Web automation on the Ash Brokerage project
+- Prepare Framework for Taxio android application
+
+
+
+To Do - 8 Hours >>R&D
+- Mobile automation testing using the Appium tool
+- Native App automation for Android
+- Create test cases in the testng framework
+- Web automation on the Ash Brokerage project
+- Prepare Framework for Taxio android application
+
+
+
+To Do - 8 Hours >>R&D
+- Mobile automation testing using the Appium tool
+- Native App automation for Android
+- Create test cases in the testng framework
+- Web automation on the Ash Brokerage project
+- Prepare Framework for Taxio android application
+
+
+To Do - 8 Hours >>R&D
+- Mobile automation testing using the Appium tool
+- Native App automation for Android
+- Create test cases in the testng framework
+- Web automation on the Ash Brokerage project
+
+
+To Do - 8 Hours >>R&D
+- Mobile automation testing using the Appium tool
+- Web App automation for Android
+- Create test cases in the testng framework
+- Web automation on the Ash Brokerage project
+
+
+
+To Do - 8 Hours >>R&D
+- Mobile automation testing using the Appium tool
+- Web App automation with Appium
+- Create test cases in the testng framework
+- Read or Write data from excel sheet
+- Web automation on Ash Brokerage project
+
+
+To Do - 8 Hours >>R&D
+- Mobile automation testing using the Appium tool
+- Web App automation with Appium
+- Create test cases in the testng framework
+- Read or Write data from excel sheet
+
+
+
+To Do - 8 Hours >>R&D
+- Mobile automation testing using the Appium tool
+- Hybrid App automation with Appium
+- Create test cases in the testng framework
+
+
+To Do - 8 Hours >>R&D
+- Mobile automation testing using the Appium tool
+- Hybrid App automation with Appium
+- Create test cases in the testng framework
+
+
+To Do - 8 Hours >>R&D
+- Mobile automation testing using the Appium tool
+- Hybrid App automation with Appium
+- Create test cases in the testng framework
+
+
+To Do - 8 Hours >>R&D
+- Mobile automation testing using the Appium tool
+- Drive the data from json file
+- Create test cases in the testng framework
+- Data utility
+
+
+To Do - 8 Hours >>R&D
+- Mobile automation testing using Appium tool
+- Practice on real-time E-commerce app
+- Create test cases in testng framework
+- Web app automation 
+
+
+To Do - 8 Hours >>R&D
+- Mobile automation testing using Appium tool
+- Practice on real-time E-commerce app
+- Create test cases in testng framework
+
+
+To Do - 8 Hours >>R&D
+- Mobile automation using appium tool
+- Practice on real-time E-commerce app
+- Create test cases
+- Testng framework
+
+To Do - 8 Hours >>R&D
+- IOS Automation using Appium
+- Xcode and iPhone 12 Simulator
+- Practice on dummy hybrid app
+- Verifying toast messages
+
+
+To Do - 8 Hours >>R&D
+- Automate Miscellaneous Activities
+- Orientation and KeyEvents
+- Assertions on Browser Test
+- Swipe functionality using appium on Android
+
+
+To Do - 8 Hours >>R&D
+- Hybrid App Automation
+- Switch from Apps to Web browser
+- Mobile Chrome Browsers Automation with appium
+
+
+To Do - 8 Hours >>R&D
+- Handle objects when rendered in web view
+- Scroll Gestures using Appium on Android apps
+- Context switch using Chrome Driver
+
+To Do - 8 Hours >>R&D
+- Appium Mobile Gestures
+- Long press on Android Apps
+- Scroll Gestures using Appium on Android apps
+
+
+To Do - 8 Hours >>R&D
+- Mobile Chrome Browser
+- Handle mobile popups
+
+
+To Do - 8 Hours >>R&D
+- Android Native Apps automation with Appium
+- Appium server 
+- Id, Xpath and Accessibility
+- Handle mobile popups
+
+
+To Do - 8 Hours >>R&D
+- Appium server 
+- Id, Xpath and Accessibility
+- Handle mobile popups
+
+
+To Do - 8 Hours >>R&D
+- Appium server 
+- Appium Inspector to identify the elements of the apps
+- Create an Android Driver and set desired capabilities through the UiAutomator object
+- Id, Xpath and Accessibility
+
+
+To Do - 8 Hours >>R&D
+-Mobile Automation testing using the Appium tool
+-Android Studio
+-UI Automator
+
+
+To Do - 8 Hours >>R&D
+Mobile Automation testing using the Appium tool

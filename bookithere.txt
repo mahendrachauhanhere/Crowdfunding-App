@@ -1,0 +1,59 @@
+URL-  http://192.168.1.100:7031/ 
+
+Credential for Book It Here(local) 
+
+Admin
+Email -  dhruveshy.itpath@gmail.com 
+Pwd - 123456
+
+HOD
+Email -  jr@yopmail.com 
+Pwd - 123456
+
+User
+Email -  mahendra@yopmail.com 
+Pwd - 123456
+
+
+
+------------------------------------------------------------------------------------------------
+10-07-2024:
+
+adminqa@yopmail.com
+123456
+
+Testuser@yopmail.com	
+123456
+
+Testhod@yopmail.com
+123456
+
+20+135+
+30+
+
+TestManager@yopmail.com
+123456
+
+------------------------------------------------------------------------------------------------
+
+Admin : Admin have all permission.
+HOD : Sessions are managed, and users are managed as per department-approved sessions.
+User : The user can  created session and view their own sessions. Sessions for which they have received invitations are also displayed.
+Manager : The same applies to HOD, but the manager is unable to management users.
+
+------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+page speed test:
+https://pagespeed.web.dev
+https://tools.pingdom.com
+https://gtmetrix.com
+https://www.debugbear.com/test/website-speed
+
+his validator checks the markup validity of Web documents in HTML, XHTML, SMIL, MathML, etc. If you wish to validate specific content such as RSS/Atom feeds or .
+https://validator.w3.org/

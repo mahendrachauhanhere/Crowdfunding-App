@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="test1(failed)">
+    <classes>
+      <class name="Testcase.Verified_Sign_Up_Page">
+        <methods>
+          <include name="afterTest"/>
+          <include name="endReports"/>
+          <include name="setup"/>
+          <include name="Verified_SignUp_Page"/>
+          <include name="reportsetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Testcase.Verified_Sign_Up_Page -->
+      <class name="Testcase.Verified_Home_Testcase2">
+        <methods>
+          <include name="afterTest"/>
+          <include name="endReports"/>
+          <include name="setup"/>
+          <include name="reportsetup"/>
+          <include name="tearDown"/>
+          <include name="Verified_Home_Page"/>
+        </methods>
+      </class> <!-- Testcase.Verified_Home_Testcase2 -->
+      <class name="Testcase.Verified_Forgotpassword_Testcase">
+        <methods>
+          <include name="afterTest"/>
+          <include name="endReports"/>
+          <include name="Verified_Forgot_Testcase"/>
+          <include name="setup"/>
+          <include name="reportsetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Testcase.Verified_Forgotpassword_Testcase -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
